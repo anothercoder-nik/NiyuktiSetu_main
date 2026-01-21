@@ -1,0 +1,245 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 60px);
+  padding: 1rem;
+  margin-top: 60px;
+  background: linear-gradient(135deg, #0d0d0d 0%, #1a1a1a 50%, #0d0d0d 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.login-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 20% 30%, rgba(255, 153, 51, 0.15) 0%, transparent 50%),
+              radial-gradient(circle at 80% 70%, rgba(19, 136, 8, 0.15) 0%, transparent 50%);
+  pointer-events: none;
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.login-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 255, 255, 0.95) 100%);
+  backdrop-filter: blur(20px);
+  border-radius: 32px;
+  border: 2px solid rgba(255, 153, 51, 0.3);
+  box-shadow: 0 20px 60px rgba(255, 153, 51, 0.25), 0 0 100px rgba(19, 136, 8, 0.1);
+  padding: 56px;
+  width: 100%;
+  max-width: 500px;
+  animation: fadeInUp 0.8s ease-out, cardFloat 3s ease-in-out infinite;
+  position: relative;
+  z-index: 1;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+@keyframes cardFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.login-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: linear-gradient(90deg, #FF9933 0%, #FFFFFF 33.33%, #138808 66.66%, #000080 100%);
+  border-radius: 32px 32px 0 0;
+  animation: shimmer 3s linear infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.login-card:hover {
+  box-shadow: 0 30px 80px rgba(255, 153, 51, 0.35), 0 0 120px rgba(19, 136, 8, 0.15);
+  border-color: #FF9933;
+  transform: translateY(-5px);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.login-title {
+  text-align: center;
+  font-family: 'Poppins', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, #FF9933 0%, #138808 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+  margin: 0 0 12px 0;
+  letter-spacing: 3px;
+  position: relative;
+  padding-bottom: 20px;
+  animation: titlePulse 2s ease-in-out infinite;
+}
+
+@keyframes titlePulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 10px rgba(255, 153, 51, 0.5));
+  }
+  50% {
+    filter: drop-shadow(0 0 20px rgba(255, 153, 51, 0.8));
+  }
+}
+
+.login-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 5px;
+  background: linear-gradient(90deg, #FF9933 0%, #138808 100%);
+  border-radius: 3px;
+  box-shadow: 0 4px 12px rgba(255, 153, 51, 0.5);
+}
+
+.login-error {
+  background: rgba(239, 68, 68, 0.1);
+  border: 2px solid rgba(239, 68, 68, 0.4);
+  color: #ef4444;
+  padding: 12px 16px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  animation: shakeError 0.5s ease-out;
+}
+
+@keyframes shakeError {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-10px); }
+  75% { transform: translateX(10px); }
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-label {
+  font-family: 'Poppins', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #333333;
+  margin: 0;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-icon {
+  position: absolute;
+  left: 14px;
+  font-size: 1.1rem;
+  color: #FF9933;
+  font-weight: 700;
+  pointer-events: none;
+}
+
+.input-field {
+  width: 100%;
+  height: 48px;
+  padding: 0 14px 0 40px;
+  font-family: 'Poppins', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.95rem;
+  color: #333333;
+  background-color: #fafafa;
+  border: 2px solid #e6e6e6;
+  border-radius: 12px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.input-field::placeholder {
+  color: #a3a3a3;
+}
+
+.input-field:focus {
+  border-color: #FF9933;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 4px rgba(255, 153, 51, 0.15), 0 2px 8px rgba(255, 153, 51, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .login-card {
+    max-width: 85%;
+    padding: 32px;
+  }
+
+  .login-title {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-card {
+    max-width: 90%;
+    padding: 24px;
+  }
+
+  .login-title {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .input-label {
+    font-size: 0.85rem;
+  }
+
+  .input-field {
+    font-size: 0.85rem;
+    height: 40px;
+  }
+}

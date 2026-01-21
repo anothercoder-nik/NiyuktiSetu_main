@@ -1,0 +1,115 @@
+.poster-card {
+  flex-shrink: 0;
+  width: 320px;
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(255, 153, 51, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s, background 0.3s;
+  cursor: pointer;
+  border: 2px solid rgba(255, 153, 51, 0.1);
+}
+
+[data-theme="dark"] .poster-card {
+  background: rgba(26, 26, 26, 0.9);
+  border-color: rgba(255, 153, 51, 0.2);
+  box-shadow: 0 4px 15px rgba(255, 153, 51, 0.2);
+}
+
+[data-theme="dark"] .poster-card:hover {
+  box-shadow: 0 12px 30px rgba(255, 153, 51, 0.3), 0 8px 15px rgba(19, 136, 8, 0.15);
+}
+
+.poster-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(255, 153, 51, 0.25), 0 8px 15px rgba(19, 136, 8, 0.1);
+  border-color: #FF9933;
+}
+
+.poster-card:focus-visible {
+  outline: 3px solid #4fd1c5;
+  outline-offset: 3px;
+}
+
+.poster-image {
+  height: 180px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 16px;
+}
+
+.poster-badge {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #0f172a;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.poster-content {
+  padding: 20px;
+}
+
+.poster-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 12px;
+  line-height: 1.4;
+  font-family: 'Poppins', sans-serif;
+  transition: color 0.3s ease;
+}
+
+[data-theme="dark"] .poster-title {
+  color: #f8f9fa;
+}
+
+.poster-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.poster-date {
+  font-weight: 500;
+}
+
+.poster-action {
+  width: 100%;
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #FF9933 0%, #ff7700 100%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: opacity 0.2s, transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 12px rgba(255, 153, 51, 0.3);
+}
+
+.poster-action:hover {
+  opacity: 0.95;
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(255, 153, 51, 0.4);
+}
+
+@media (max-width: 768px) {
+  .poster-card {
+    width: 280px;
+  }
+}

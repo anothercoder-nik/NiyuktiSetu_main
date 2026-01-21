@@ -1,0 +1,215 @@
+.language-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0f2fe 0%, #f0f9ff 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.language-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.05) 0%, transparent 20%),
+    radial-gradient(circle at 90% 80%, rgba(147, 197, 253, 0.05) 0%, transparent 20%),
+    radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.03) 0%, transparent 30%);
+  pointer-events: none;
+}
+
+.user-avatar {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid white;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  animation: avatarFloat 3s ease-in-out infinite;
+}
+
+@keyframes avatarFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.user-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.language-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.language-title {
+  font-size: 42px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 60px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.3;
+}
+
+.language-title .highlight {
+  font-weight: 800;
+  color: #000;
+}
+
+.language-options {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.language-btn {
+  min-width: 200px;
+  padding: 20px 48px;
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 24px rgba(59, 130, 246, 0.4);
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.language-btn::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.language-btn:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+.language-btn:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 12px 32px rgba(59, 130, 246, 0.5);
+}
+
+.language-btn:active {
+  transform: translateY(-2px) scale(1.02);
+}
+
+.language-btn.selected {
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+  box-shadow: 0 8px 24px rgba(34, 197, 94, 0.4);
+  animation: selectedPulse 0.6s ease-out;
+}
+
+@keyframes selectedPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.exit-button {
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
+  padding: 16px 48px;
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(239, 68, 68, 0.4);
+  z-index: 10;
+}
+
+.exit-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(239, 68, 68, 0.5);
+}
+
+.exit-button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .user-avatar {
+    top: 40px;
+    right: 40px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .language-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .language-options {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .language-btn {
+    min-width: 250px;
+    font-size: 20px;
+    padding: 18px 40px;
+  }
+
+  .exit-button {
+    bottom: 30px;
+    right: 30px;
+    padding: 14px 36px;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "rfid": "RFID001234",
+  "roll_no": "ROLL2024001",
+  "name": "Candidate",
+  "start_time": "2025-11-10T01:01:33.777842",
+  "end_time": "2025-11-10T01:04:19.647580",
+  "total_questions": 10,
+  "questions_answered": 10,
+  "total_score": 0.0,
+  "average_score": 0.0,
+  "questions_and_answers": [
+    {
+      "question_number": 1,
+      "question_id": 0,
+      "category": "Introduction",
+      "question_text": "Good Afternoon. Please introduce yourself and tell us about your background.",
+      "answer": "My background is I am ADRD officer. I currently preparing for this exam. And I'm trying to think of this as an exam.",
+      "sentiment_score": 0.0,
+      "relevance_score": 0.0,
+      "final_score": 0.0
+    },
+    {
+      "question_number": 2,
+      "question_id": 462,
+      "category": "Personality Test",
+      "question_text": "Describe a situation where you solved conflict.",
+      "answer": "I think there are so many situations but I have solved some problem.",
+      "sentiment_score": 0.0,
+      "relevance_score": 0.0,
+      "final_score": 0.0
+    },
+    {
+      "question_number": 3,
+      "question_id": 392,
+      "category": "Personality Test",
+      "question_text": "Describe a situation where you managed a team.",
+      "answer": "I am the one.",
+      "sentiment_score": 0.0,
+      "relevance_score": 0.0,
+      "final_score": 0.0
+    },
+    {
+      "question_number": 4,
+      "question_id": 303,
+      "category": "English",
+      "question_text": "Choose the correct form of word: run / runs / running",
+      "answer": "Umm, it is run.",
+      "sentiment_score": 0.0,
+      "relevance_score": 0.0,
+      "final_score": 0.0
+    },
+    {
+      "question_number": 5,
+      "question_id": 356,
+      "category": "English",
+      "question_text": "Choose the correct form of word: their / there / they're",
+      "answer": "It is there THERE.",
+      "sentiment_score": 0.0,
+      "relevance_score": 0.0,
+      "final_score": 0.0
+    },
+    {
+      "question_number": 6,
+      "question_id": 505,
+      "category": "English",
+      "question_text": "Choose the correct form of word: is / are",
+      "answer": "The answer is. R.",
+      "sentiment_score": 0.0,
+      "relevance_score": 0.0,
+      "final_score": 0.0
+    },
+    {
+      "question_number": 7,
+      "question_id": 397,
+      "category": "Personality Test",
+      "question_text": "Describe a situation where you showed determination.",
+      "answer": "I showed my determination during an interview.",
+      "sentiment_score": 0.0,
+      "relevance_score": 0.0,
+      "final_score": 0.0
+    },
+    {
+      "question_number": 8,
+      "question_id": 513,
+      "category": "English",
+      "question_text": "Choose the correct form of word: is / are",
+      "answer": "The correct form is is.",
+      "sentiment_score": 0.0,
+      "relevance_score": 0.0,
+      "final_score": 0.0
+    },
+    {
+      "question_number": 9,
+      "question_id": 329,
+      "category": "English",
+      "question_text": "Choose the correct form of word: their / there / they're",
+      "answer": "The answer is THERE there.",
+      "sentiment_score": 0.0,
+      "relevance_score": 0.0,
+      "final_score": 0.0
+    },
+    {
+      "question_number": 10,
+      "question_id": 244,
+      "category": "English",
+      "question_text": "Choose the correct form of word: run / runs / running",
+      "answer": "The answer is running.",
+      "sentiment_score": 0.0,
+      "relevance_score": 0.0,
+      "final_score": 0.0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+# Python
+venv/
+.venv/
+env/
+__pycache__/
+
+# ML / Large models
+*.onnx
+*.h5
+*.pt
+*.pth
+
+# Compiled binaries
+*.dll
+*.pyd
+*.so
+
+# OS
+.DS_Store
+Thumbs.db

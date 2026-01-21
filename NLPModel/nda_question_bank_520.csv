@@ -1,0 +1,521 @@
+question_id,category,question_text
+1,General Knowledge,Who is known for contribution in Indian history?
+2,Geography,Which place is known as the valley of land?
+3,General Knowledge,Who is known for invention in Indian history?
+4,Current Affairs,Which organization recently won global award?
+5,Mathematics,Solve: 45% of 160
+6,Current Affairs,Which organization recently launched new scheme?
+7,Current Affairs,Which organization recently won global award?
+8,Mathematics,Solve: 12+15
+9,Personality Test,Describe a situation where you showed determination.
+10,Geography,Which place is known as the valley of land?
+11,Science,What is the water of water?
+12,Current Affairs,Which organization recently launched new scheme?
+13,Mathematics,Solve: 12+15
+14,Current Affairs,Which organization recently signed MoU?
+15,Reasoning,Find the next pattern: RED → TGF
+16,English,Choose the correct form of word: their / there / they're
+17,Science,What is the water of energy?
+18,Current Affairs,Which organization recently won global award?
+19,Mathematics,Solve: 12+15
+20,Geography,Which place is known as the capital of capital?
+21,English,Choose the correct form of word: their / there / they're
+22,Geography,Which place is known as the capital of kingdom?
+23,Science,What is the distance of speed?
+24,Science,What is the distance of force?
+25,English,Choose the correct form of word: run / runs / running
+26,English,Choose the correct form of word: their / there / they're
+27,Mathematics,Solve: 45% of 160
+28,Mathematics,Solve: 19×6
+29,Science,What is the energy of distance?
+30,Current Affairs,Which organization recently won global award?
+31,Current Affairs,Which organization recently signed MoU?
+32,Reasoning,Find the next pattern: RED → TGF
+33,Mathematics,Solve: 19×6
+34,Personality Test,Describe a situation where you managed a team.
+35,English,Choose the correct form of word: is / are
+36,Science,What is the energy of speed?
+37,Personality Test,Describe a situation where you managed a team.
+38,General Knowledge,Who is known for service in Indian history?
+39,Reasoning,"Find the next pattern: A, C, E, ?"
+40,General Knowledge,Who is known for contribution in Indian history?
+41,Current Affairs,Which organization recently launched new scheme?
+42,Current Affairs,Which organization recently signed MoU?
+43,Personality Test,Describe a situation where you showed determination.
+44,Geography,Which place is known as the capital of valley?
+45,English,Choose the correct form of word: their / there / they're
+46,English,Choose the correct form of word: is / are
+47,Science,What is the distance of water?
+48,Personality Test,Describe a situation where you showed determination.
+49,Personality Test,Describe a situation where you solved conflict.
+50,Current Affairs,Which organization recently signed MoU?
+51,General Knowledge,Who is known for invention in Indian history?
+52,General Knowledge,Who is known for service in Indian history?
+53,Mathematics,Solve: 19×6
+54,Mathematics,Solve: 12+15
+55,English,Choose the correct form of word: run / runs / running
+56,Mathematics,Solve: 12+15
+57,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
+58,Mathematics,Solve: 12+15
+59,Reasoning,Find the next pattern: RED → TGF
+60,Mathematics,Solve: 19×6
+61,Science,What is the force of force?
+62,Personality Test,Describe a situation where you showed determination.
+63,Science,What is the water of force?
+64,English,Choose the correct form of word: is / are
+65,Reasoning,Find the next pattern: RED → TGF
+66,General Knowledge,Who is known for service in Indian history?
+67,Personality Test,Describe a situation where you solved conflict.
+68,General Knowledge,Who is known for invention in Indian history?
+69,Reasoning,"Find the next pattern: A, C, E, ?"
+70,Current Affairs,Which organization recently launched new scheme?
+71,Current Affairs,Which organization recently won global award?
+72,Mathematics,Solve: 19×6
+73,English,Choose the correct form of word: their / there / they're
+74,Mathematics,Solve: 19×6
+75,Current Affairs,Which organization recently won global award?
+76,General Knowledge,Who is known for leadership in Indian history?
+77,Reasoning,"Find the next pattern: A, C, E, ?"
+78,Geography,Which place is known as the land of land?
+79,Mathematics,Solve: 45% of 160
+80,Geography,Which place is known as the land of kingdom?
+81,Science,What is the energy of water?
+82,Mathematics,Solve: 45% of 160
+83,Geography,Which place is known as the kingdom of city?
+84,Science,What is the distance of distance?
+85,Geography,Which place is known as the valley of capital?
+86,Science,What is the speed of energy?
+87,Geography,Which place is known as the kingdom of valley?
+88,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
+89,Personality Test,Describe a situation where you solved conflict.
+90,Personality Test,Describe a situation where you showed determination.
+91,Personality Test,Describe a situation where you managed a team.
+92,General Knowledge,Who is known for vision in Indian history?
+93,General Knowledge,Who is known for contribution in Indian history?
+94,Science,What is the distance of force?
+95,Geography,Which place is known as the city of kingdom?
+96,Current Affairs,Which organization recently signed MoU?
+97,English,Choose the correct form of word: their / there / they're
+98,Mathematics,Solve: √144
+99,Geography,Which place is known as the city of city?
+100,Current Affairs,Which organization recently won global award?
+101,Personality Test,Describe a situation where you showed determination.
+102,Mathematics,Solve: √144
+103,Current Affairs,Which organization recently won global award?
+104,Personality Test,Describe a situation where you showed determination.
+105,Personality Test,Describe a situation where you showed determination.
+106,Mathematics,Solve: 45% of 160
+107,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
+108,Current Affairs,Which organization recently won global award?
+109,Geography,Which place is known as the city of city?
+110,English,Choose the correct form of word: run / runs / running
+111,Geography,Which place is known as the city of capital?
+112,Geography,Which place is known as the kingdom of capital?
+113,Science,What is the distance of speed?
+114,Mathematics,Solve: 12+15
+115,Mathematics,Solve: 45% of 160
+116,Science,What is the distance of distance?
+117,Mathematics,Solve: 19×6
+118,Geography,Which place is known as the city of capital?
+119,Personality Test,Describe a situation where you managed a team.
+120,Science,What is the speed of speed?
+121,Reasoning,Find the next pattern: RED → TGF
+122,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
+123,Personality Test,Describe a situation where you solved conflict.
+124,Geography,Which place is known as the city of city?
+125,Current Affairs,Which organization recently signed MoU?
+126,Science,What is the energy of water?
+127,Mathematics,Solve: 19×6
+128,Mathematics,Solve: √144
+129,Personality Test,Describe a situation where you managed a team.
+130,Current Affairs,Which organization recently won global award?
+131,English,Choose the correct form of word: their / there / they're
+132,Current Affairs,Which organization recently won global award?
+133,Geography,Which place is known as the land of kingdom?
+134,Geography,Which place is known as the valley of capital?
+135,General Knowledge,Who is known for leadership in Indian history?
+136,Geography,Which place is known as the valley of kingdom?
+137,Science,What is the force of distance?
+138,Reasoning,"Find the next pattern: A, C, E, ?"
+139,Science,What is the energy of energy?
+140,Mathematics,Solve: 12+15
+141,English,Choose the correct form of word: run / runs / running
+142,Mathematics,Solve: 45% of 160
+143,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
+144,English,Choose the correct form of word: their / there / they're
+145,Reasoning,"Find the next pattern: A, C, E, ?"
+146,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
+147,Science,What is the distance of force?
+148,Current Affairs,Which organization recently launched new scheme?
+149,Geography,Which place is known as the land of kingdom?
+150,Personality Test,Describe a situation where you solved conflict.
+151,General Knowledge,Who is known for contribution in Indian history?
+152,Reasoning,"Find the next pattern: A, C, E, ?"
+153,Reasoning,Find the next pattern: RED → TGF
+154,Reasoning,"Find the next pattern: A, C, E, ?"
+155,English,Choose the correct form of word: their / there / they're
+156,Science,What is the energy of water?
+157,General Knowledge,Who is known for vision in Indian history?
+158,Current Affairs,Which organization recently signed MoU?
+159,Current Affairs,Which organization recently launched new scheme?
+160,Mathematics,Solve: 45% of 160
+161,Personality Test,Describe a situation where you managed a team.
+162,Current Affairs,Which organization recently signed MoU?
+163,Geography,Which place is known as the land of capital?
+164,Current Affairs,Which organization recently launched new scheme?
+165,Mathematics,Solve: 45% of 160
+166,General Knowledge,Who is known for vision in Indian history?
+167,Geography,Which place is known as the valley of land?
+168,General Knowledge,Who is known for contribution in Indian history?
+169,General Knowledge,Who is known for invention in Indian history?
+170,Personality Test,Describe a situation where you managed a team.
+171,Personality Test,Describe a situation where you solved conflict.
+172,English,Choose the correct form of word: run / runs / running
+173,Mathematics,Solve: 12+15
+174,Mathematics,Solve: 19×6
+175,Personality Test,Describe a situation where you solved conflict.
+176,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
+177,Geography,Which place is known as the kingdom of valley?
+178,English,Choose the correct form of word: is / are
+179,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
+180,Mathematics,Solve: √144
+181,Personality Test,Describe a situation where you showed determination.
+182,Mathematics,Solve: 12+15
+183,Science,What is the energy of force?
+184,Personality Test,Describe a situation where you showed determination.
+185,Current Affairs,Which organization recently launched new scheme?
+186,General Knowledge,Who is known for leadership in Indian history?
+187,Science,What is the water of water?
+188,Reasoning,"Find the next pattern: A, C, E, ?"
+189,Geography,Which place is known as the valley of kingdom?
+190,Geography,Which place is known as the kingdom of capital?
+191,Geography,Which place is known as the kingdom of valley?
+192,Personality Test,Describe a situation where you solved conflict.
+193,Current Affairs,Which organization recently signed MoU?
+194,Current Affairs,Which organization recently launched new scheme?
+195,Geography,Which place is known as the kingdom of city?
+196,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
+197,Personality Test,Describe a situation where you managed a team.
+198,Science,What is the speed of distance?
+199,Science,What is the water of force?
+200,Mathematics,Solve: √144
+201,English,Choose the correct form of word: their / there / they're
+202,General Knowledge,Who is known for vision in Indian history?
+203,Personality Test,Describe a situation where you showed determination.
+204,Science,What is the speed of distance?
+205,Mathematics,Solve: √144
+206,Personality Test,Describe a situation where you solved conflict.
+207,Personality Test,Describe a situation where you managed a team.
+208,Mathematics,Solve: 19×6
+209,Geography,Which place is known as the valley of city?
+210,Reasoning,Find the next pattern: RED → TGF
+211,Science,What is the energy of energy?
+212,Science,What is the water of distance?
+213,English,Choose the correct form of word: run / runs / running
+214,Science,What is the force of speed?
+215,Geography,Which place is known as the kingdom of city?
+216,General Knowledge,Who is known for invention in Indian history?
+217,Mathematics,Solve: 19×6
+218,Current Affairs,Which organization recently won global award?
+219,Personality Test,Describe a situation where you solved conflict.
+220,English,Choose the correct form of word: their / there / they're
+221,Personality Test,Describe a situation where you showed determination.
+222,Geography,Which place is known as the kingdom of valley?
+223,Science,What is the distance of water?
+224,Mathematics,Solve: 12+15
+225,English,Choose the correct form of word: their / there / they're
+226,Personality Test,Describe a situation where you solved conflict.
+227,Mathematics,Solve: √144
+228,Mathematics,Solve: 19×6
+229,Geography,Which place is known as the kingdom of valley?
+230,Reasoning,Find the next pattern: RED → TGF
+231,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
+232,Science,What is the energy of force?
+233,Mathematics,Solve: √144
+234,Reasoning,Find the next pattern: RED → TGF
+235,Science,What is the water of distance?
+236,Current Affairs,Which organization recently launched new scheme?
+237,Science,What is the speed of water?
+238,General Knowledge,Who is known for vision in Indian history?
+239,Current Affairs,Which organization recently won global award?
+240,General Knowledge,Who is known for contribution in Indian history?
+241,Personality Test,Describe a situation where you managed a team.
+242,General Knowledge,Who is known for leadership in Indian history?
+243,Reasoning,Find the next pattern: RED → TGF
+244,English,Choose the correct form of word: run / runs / running
+245,Science,What is the distance of distance?
+246,Mathematics,Solve: 19×6
+247,English,Choose the correct form of word: their / there / they're
+248,Science,What is the energy of force?
+249,English,Choose the correct form of word: their / there / they're
+250,Geography,Which place is known as the valley of valley?
+251,Mathematics,Solve: √144
+252,Mathematics,Solve: 12+15
+253,Mathematics,Solve: √144
+254,Reasoning,Find the next pattern: RED → TGF
+255,English,Choose the correct form of word: run / runs / running
+256,Science,What is the speed of speed?
+257,Science,What is the distance of distance?
+258,Science,What is the water of water?
+259,Current Affairs,Which organization recently launched new scheme?
+260,General Knowledge,Who is known for service in Indian history?
+261,Mathematics,Solve: √144
+262,Current Affairs,Which organization recently launched new scheme?
+263,Current Affairs,Which organization recently won global award?
+264,English,Choose the correct form of word: is / are
+265,Reasoning,Find the next pattern: RED → TGF
+266,English,Choose the correct form of word: run / runs / running
+267,Current Affairs,Which organization recently won global award?
+268,Geography,Which place is known as the capital of land?
+269,English,Choose the correct form of word: their / there / they're
+270,Geography,Which place is known as the city of kingdom?
+271,Personality Test,Describe a situation where you solved conflict.
+272,General Knowledge,Who is known for service in Indian history?
+273,Science,What is the distance of distance?
+274,Mathematics,Solve: √144
+275,Current Affairs,Which organization recently launched new scheme?
+276,Mathematics,Solve: 12+15
+277,Geography,Which place is known as the land of land?
+278,Science,What is the force of water?
+279,Current Affairs,Which organization recently won global award?
+280,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
+281,Personality Test,Describe a situation where you solved conflict.
+282,Personality Test,Describe a situation where you solved conflict.
+283,Geography,Which place is known as the valley of capital?
+284,Geography,Which place is known as the city of land?
+285,English,Choose the correct form of word: their / there / they're
+286,Personality Test,Describe a situation where you managed a team.
+287,Mathematics,Solve: 12+15
+288,Current Affairs,Which organization recently won global award?
+289,English,Choose the correct form of word: run / runs / running
+290,Geography,Which place is known as the capital of valley?
+291,Reasoning,"Find the next pattern: A, C, E, ?"
+292,Current Affairs,Which organization recently won global award?
+293,English,Choose the correct form of word: their / there / they're
+294,Personality Test,Describe a situation where you managed a team.
+295,Science,What is the energy of force?
+296,English,Choose the correct form of word: run / runs / running
+297,Current Affairs,Which organization recently launched new scheme?
+298,Geography,Which place is known as the valley of valley?
+299,Reasoning,Find the next pattern: RED → TGF
+300,English,Choose the correct form of word: run / runs / running
+301,Science,What is the speed of speed?
+302,Personality Test,Describe a situation where you managed a team.
+303,English,Choose the correct form of word: run / runs / running
+304,Mathematics,Solve: 45% of 160
+305,Personality Test,Describe a situation where you solved conflict.
+306,Science,What is the speed of distance?
+307,Personality Test,Describe a situation where you showed determination.
+308,General Knowledge,Who is known for invention in Indian history?
+309,English,Choose the correct form of word: their / there / they're
+310,Science,What is the distance of force?
+311,Mathematics,Solve: 12+15
+312,Current Affairs,Which organization recently won global award?
+313,Personality Test,Describe a situation where you solved conflict.
+314,Reasoning,Find the next pattern: RED → TGF
+315,Geography,Which place is known as the valley of capital?
+316,Personality Test,Describe a situation where you showed determination.
+317,English,Choose the correct form of word: run / runs / running
+318,Mathematics,Solve: 19×6
+319,Geography,Which place is known as the valley of city?
+320,Current Affairs,Which organization recently won global award?
+321,Reasoning,"Find the next pattern: A, C, E, ?"
+322,Science,What is the distance of speed?
+323,Personality Test,Describe a situation where you solved conflict.
+324,Personality Test,Describe a situation where you solved conflict.
+325,Science,What is the energy of distance?
+326,Reasoning,"Find the next pattern: A, C, E, ?"
+327,Reasoning,"Find the next pattern: A, C, E, ?"
+328,Science,What is the energy of distance?
+329,English,Choose the correct form of word: their / there / they're
+330,English,Choose the correct form of word: is / are
+331,English,Choose the correct form of word: is / are
+332,General Knowledge,Who is known for service in Indian history?
+333,Geography,Which place is known as the capital of land?
+334,Science,What is the energy of energy?
+335,General Knowledge,Who is known for vision in Indian history?
+336,Reasoning,"Find the next pattern: A, C, E, ?"
+337,Reasoning,"Find the next pattern: A, C, E, ?"
+338,English,Choose the correct form of word: their / there / they're
+339,Geography,Which place is known as the kingdom of kingdom?
+340,Reasoning,Find the next pattern: RED → TGF
+341,Mathematics,Solve: 45% of 160
+342,Current Affairs,Which organization recently launched new scheme?
+343,Science,What is the water of distance?
+344,Geography,Which place is known as the capital of city?
+345,Current Affairs,Which organization recently won global award?
+346,Reasoning,"Find the next pattern: A, C, E, ?"
+347,Science,What is the force of energy?
+348,Geography,Which place is known as the capital of city?
+349,Mathematics,Solve: 45% of 160
+350,English,Choose the correct form of word: is / are
+351,Science,What is the distance of distance?
+352,Personality Test,Describe a situation where you solved conflict.
+353,Geography,Which place is known as the kingdom of land?
+354,Science,What is the water of energy?
+355,English,Choose the correct form of word: run / runs / running
+356,English,Choose the correct form of word: their / there / they're
+357,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
+358,General Knowledge,Who is known for leadership in Indian history?
+359,Personality Test,Describe a situation where you managed a team.
+360,Mathematics,Solve: √144
+361,Current Affairs,Which organization recently won global award?
+362,Reasoning,"Find the next pattern: A, C, E, ?"
+363,Personality Test,Describe a situation where you managed a team.
+364,Current Affairs,Which organization recently signed MoU?
+365,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
+366,General Knowledge,Who is known for leadership in Indian history?
+367,General Knowledge,Who is known for leadership in Indian history?
+368,Current Affairs,Which organization recently launched new scheme?
+369,English,Choose the correct form of word: run / runs / running
+370,Geography,Which place is known as the land of kingdom?
+371,English,Choose the correct form of word: run / runs / running
+372,Personality Test,Describe a situation where you showed determination.
+373,English,Choose the correct form of word: is / are
+374,Geography,Which place is known as the valley of kingdom?
+375,English,Choose the correct form of word: run / runs / running
+376,Personality Test,Describe a situation where you solved conflict.
+377,Personality Test,Describe a situation where you solved conflict.
+378,General Knowledge,Who is known for leadership in Indian history?
+379,English,Choose the correct form of word: their / there / they're
+380,Reasoning,"Find the next pattern: A, C, E, ?"
+381,General Knowledge,Who is known for leadership in Indian history?
+382,English,Choose the correct form of word: their / there / they're
+383,English,Choose the correct form of word: is / are
+384,English,Choose the correct form of word: run / runs / running
+385,General Knowledge,Who is known for vision in Indian history?
+386,General Knowledge,Who is known for contribution in Indian history?
+387,General Knowledge,Who is known for vision in Indian history?
+388,Personality Test,Describe a situation where you managed a team.
+389,Mathematics,Solve: 12+15
+390,Personality Test,Describe a situation where you showed determination.
+391,Current Affairs,Which organization recently won global award?
+392,Personality Test,Describe a situation where you managed a team.
+393,General Knowledge,Who is known for invention in Indian history?
+394,English,Choose the correct form of word: run / runs / running
+395,Personality Test,Describe a situation where you managed a team.
+396,Current Affairs,Which organization recently signed MoU?
+397,Personality Test,Describe a situation where you showed determination.
+398,English,Choose the correct form of word: is / are
+399,Personality Test,Describe a situation where you solved conflict.
+400,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
+401,General Knowledge,Who is known for invention in Indian history?
+402,General Knowledge,Who is known for vision in Indian history?
+403,English,Choose the correct form of word: their / there / they're
+404,English,Choose the correct form of word: is / are
+405,Geography,Which place is known as the land of capital?
+406,General Knowledge,Who is known for contribution in Indian history?
+407,Mathematics,Solve: 45% of 160
+408,Reasoning,"Find the next pattern: A, C, E, ?"
+409,Mathematics,Solve: 19×6
+410,Personality Test,Describe a situation where you solved conflict.
+411,Mathematics,Solve: √144
+412,Geography,Which place is known as the land of kingdom?
+413,English,Choose the correct form of word: run / runs / running
+414,Science,What is the speed of energy?
+415,Science,What is the force of water?
+416,Reasoning,"Find the next pattern: A, C, E, ?"
+417,Current Affairs,Which organization recently launched new scheme?
+418,Current Affairs,Which organization recently signed MoU?
+419,Science,What is the force of force?
+420,General Knowledge,Who is known for vision in Indian history?
+421,Science,What is the force of speed?
+422,Science,What is the force of force?
+423,Mathematics,Solve: 45% of 160
+424,Geography,Which place is known as the kingdom of valley?
+425,Current Affairs,Which organization recently launched new scheme?
+426,Science,What is the speed of force?
+427,Geography,Which place is known as the kingdom of land?
+428,English,Choose the correct form of word: their / there / they're
+429,Personality Test,Describe a situation where you showed determination.
+430,Reasoning,Find the next pattern: RED → TGF
+431,Science,What is the distance of distance?
+432,English,Choose the correct form of word: is / are
+433,General Knowledge,Who is known for service in Indian history?
+434,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
+435,General Knowledge,Who is known for vision in Indian history?
+436,Mathematics,Solve: 19×6
+437,General Knowledge,Who is known for leadership in Indian history?
+438,Science,What is the water of energy?
+439,Geography,Which place is known as the land of valley?
+440,General Knowledge,Who is known for invention in Indian history?
+441,Science,What is the distance of water?
+442,Geography,Which place is known as the capital of kingdom?
+443,Personality Test,Describe a situation where you managed a team.
+444,Personality Test,Describe a situation where you managed a team.
+445,Reasoning,Find the next pattern: RED → TGF
+446,Geography,Which place is known as the kingdom of valley?
+447,General Knowledge,Who is known for invention in Indian history?
+448,Current Affairs,Which organization recently signed MoU?
+449,Personality Test,Describe a situation where you managed a team.
+450,General Knowledge,Who is known for service in Indian history?
+451,Geography,Which place is known as the valley of kingdom?
+452,General Knowledge,Who is known for vision in Indian history?
+453,Personality Test,Describe a situation where you managed a team.
+454,Personality Test,Describe a situation where you managed a team.
+455,Reasoning,"Find the next pattern: A, C, E, ?"
+456,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
+457,Reasoning,Find the next pattern: RED → TGF
+458,Personality Test,Describe a situation where you managed a team.
+459,General Knowledge,Who is known for leadership in Indian history?
+460,Reasoning,Find the next pattern: RED → TGF
+461,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
+462,Personality Test,Describe a situation where you solved conflict.
+463,Personality Test,Describe a situation where you showed determination.
+464,English,Choose the correct form of word: run / runs / running
+465,General Knowledge,Who is known for contribution in Indian history?
+466,Geography,Which place is known as the valley of capital?
+467,Current Affairs,Which organization recently won global award?
+468,English,Choose the correct form of word: is / are
+469,Geography,Which place is known as the valley of city?
+470,English,Choose the correct form of word: is / are
+471,Mathematics,Solve: √144
+472,Science,What is the speed of speed?
+473,General Knowledge,Who is known for vision in Indian history?
+474,General Knowledge,Who is known for vision in Indian history?
+475,English,Choose the correct form of word: run / runs / running
+476,Reasoning,"Find the next pattern: A, C, E, ?"
+477,Current Affairs,Which organization recently signed MoU?
+478,Personality Test,Describe a situation where you managed a team.
+479,Science,What is the force of water?
+480,Reasoning,Find the next pattern: RED → TGF
+481,General Knowledge,Who is known for leadership in Indian history?
+482,General Knowledge,Who is known for invention in Indian history?
+483,Geography,Which place is known as the city of land?
+484,General Knowledge,Who is known for service in Indian history?
+485,English,Choose the correct form of word: run / runs / running
+486,English,Choose the correct form of word: run / runs / running
+487,Geography,Which place is known as the land of land?
+488,Science,What is the distance of water?
+489,Geography,Which place is known as the land of kingdom?
+490,Geography,Which place is known as the valley of kingdom?
+491,Reasoning,"Find the next pattern: A, C, E, ?"
+492,Reasoning,Find the next pattern: RED → TGF
+493,Science,What is the water of speed?
+494,Geography,Which place is known as the city of kingdom?
+495,Personality Test,Describe a situation where you managed a team.
+496,English,Choose the correct form of word: run / runs / running
+497,Personality Test,Describe a situation where you showed determination.
+498,English,Choose the correct form of word: run / runs / running
+499,Geography,Which place is known as the city of capital?
+500,Science,What is the distance of water?
+501,Mathematics,Solve: 45% of 160
+502,Reasoning,Find the next pattern: RED → TGF
+503,Science,What is the speed of distance?
+504,General Knowledge,Who is known for leadership in Indian history?
+505,English,Choose the correct form of word: is / are
+506,Science,What is the water of speed?
+507,Mathematics,Solve: √144
+508,Mathematics,Solve: 19×6
+509,Mathematics,Solve: 45% of 160
+510,General Knowledge,Who is known for service in Indian history?
+511,General Knowledge,Who is known for leadership in Indian history?
+512,General Knowledge,Who is known for service in Indian history?
+513,English,Choose the correct form of word: is / are
+514,Personality Test,Describe a situation where you managed a team.
+515,Geography,Which place is known as the city of city?
+516,Current Affairs,Which organization recently signed MoU?
+517,Geography,Which place is known as the valley of land?
+518,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
+519,Current Affairs,Which organization recently signed MoU?
+520,General Knowledge,Who is known for service in Indian history?

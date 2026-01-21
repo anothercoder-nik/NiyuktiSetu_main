@@ -1,0 +1,90 @@
+.submit-button {
+  width: 100%;
+  height: 52px;
+  margin-top: 0.5rem;
+  padding: 0;
+  font-family: 'Poppins', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #FF9933 0%, #ff7700 100%);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(255, 153, 51, 0.3);
+  letter-spacing: 1px;
+}
+
+.submit-button:hover {
+  transform: translateY(-2px) scale(1.02);
+  background: linear-gradient(135deg, #ff7700 0%, #FF9933 100%);
+  box-shadow: 0 12px 28px rgba(255, 153, 51, 0.45), 0 6px 16px rgba(255, 153, 51, 0.25);
+}
+
+.submit-button:active {
+  transform: translateY(0) scale(1);
+  box-shadow: 0 4px 12px rgba(255, 153, 51, 0.3);
+}
+
+.exit-button {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  padding: 12px 32px;
+  font-family: 'Poppins', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #138808 0%, #0d6606 100%);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  z-index: 999;
+  box-shadow: 0 6px 16px rgba(19, 136, 8, 0.3);
+}
+
+.exit-button:hover {
+  transform: translateY(-2px) scale(1.05);
+  background: linear-gradient(135deg, #0d6606 0%, #138808 100%);
+  box-shadow: 0 8px 20px rgba(19, 136, 8, 0.4);
+}
+
+.exit-button:active {
+  transform: translateY(0) scale(0.98);
+  box-shadow: 0 4px 12px rgba(19, 136, 8, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .exit-button {
+    bottom: 16px;
+    right: 16px;
+    padding: 10px 28px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .exit-button {
+    bottom: 12px;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    padding: 10px 24px;
+    font-size: 0.85rem;
+  }
+
+  .exit-button:hover {
+    transform: translateX(-50%) translateY(-2px) scale(1.05);
+  }
+
+  .exit-button:active {
+    transform: translateX(-50%) translateY(0) scale(0.98);
+  }
+}
