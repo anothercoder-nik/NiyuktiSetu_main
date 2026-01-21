@@ -7,7 +7,7 @@ env/
 __pycache__/
 
 # ML / Large models
-*.onnx
+
 *.h5
 *.pt
 *.pth
