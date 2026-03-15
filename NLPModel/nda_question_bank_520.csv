@@ -1,521 +1,291 @@
-question_id,category,question_text
-1,General Knowledge,Who is known for contribution in Indian history?
-2,Geography,Which place is known as the valley of land?
-3,General Knowledge,Who is known for invention in Indian history?
-4,Current Affairs,Which organization recently won global award?
-5,Mathematics,Solve: 45% of 160
-6,Current Affairs,Which organization recently launched new scheme?
-7,Current Affairs,Which organization recently won global award?
-8,Mathematics,Solve: 12+15
-9,Personality Test,Describe a situation where you showed determination.
-10,Geography,Which place is known as the valley of land?
-11,Science,What is the water of water?
-12,Current Affairs,Which organization recently launched new scheme?
-13,Mathematics,Solve: 12+15
-14,Current Affairs,Which organization recently signed MoU?
-15,Reasoning,Find the next pattern: RED → TGF
-16,English,Choose the correct form of word: their / there / they're
-17,Science,What is the water of energy?
-18,Current Affairs,Which organization recently won global award?
-19,Mathematics,Solve: 12+15
-20,Geography,Which place is known as the capital of capital?
-21,English,Choose the correct form of word: their / there / they're
-22,Geography,Which place is known as the capital of kingdom?
-23,Science,What is the distance of speed?
-24,Science,What is the distance of force?
-25,English,Choose the correct form of word: run / runs / running
-26,English,Choose the correct form of word: their / there / they're
-27,Mathematics,Solve: 45% of 160
-28,Mathematics,Solve: 19×6
-29,Science,What is the energy of distance?
-30,Current Affairs,Which organization recently won global award?
-31,Current Affairs,Which organization recently signed MoU?
-32,Reasoning,Find the next pattern: RED → TGF
-33,Mathematics,Solve: 19×6
-34,Personality Test,Describe a situation where you managed a team.
-35,English,Choose the correct form of word: is / are
-36,Science,What is the energy of speed?
-37,Personality Test,Describe a situation where you managed a team.
-38,General Knowledge,Who is known for service in Indian history?
-39,Reasoning,"Find the next pattern: A, C, E, ?"
-40,General Knowledge,Who is known for contribution in Indian history?
-41,Current Affairs,Which organization recently launched new scheme?
-42,Current Affairs,Which organization recently signed MoU?
-43,Personality Test,Describe a situation where you showed determination.
-44,Geography,Which place is known as the capital of valley?
-45,English,Choose the correct form of word: their / there / they're
-46,English,Choose the correct form of word: is / are
-47,Science,What is the distance of water?
-48,Personality Test,Describe a situation where you showed determination.
-49,Personality Test,Describe a situation where you solved conflict.
-50,Current Affairs,Which organization recently signed MoU?
-51,General Knowledge,Who is known for invention in Indian history?
-52,General Knowledge,Who is known for service in Indian history?
-53,Mathematics,Solve: 19×6
-54,Mathematics,Solve: 12+15
-55,English,Choose the correct form of word: run / runs / running
-56,Mathematics,Solve: 12+15
-57,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
-58,Mathematics,Solve: 12+15
-59,Reasoning,Find the next pattern: RED → TGF
-60,Mathematics,Solve: 19×6
-61,Science,What is the force of force?
-62,Personality Test,Describe a situation where you showed determination.
-63,Science,What is the water of force?
-64,English,Choose the correct form of word: is / are
-65,Reasoning,Find the next pattern: RED → TGF
-66,General Knowledge,Who is known for service in Indian history?
-67,Personality Test,Describe a situation where you solved conflict.
-68,General Knowledge,Who is known for invention in Indian history?
-69,Reasoning,"Find the next pattern: A, C, E, ?"
-70,Current Affairs,Which organization recently launched new scheme?
-71,Current Affairs,Which organization recently won global award?
-72,Mathematics,Solve: 19×6
-73,English,Choose the correct form of word: their / there / they're
-74,Mathematics,Solve: 19×6
-75,Current Affairs,Which organization recently won global award?
-76,General Knowledge,Who is known for leadership in Indian history?
-77,Reasoning,"Find the next pattern: A, C, E, ?"
-78,Geography,Which place is known as the land of land?
-79,Mathematics,Solve: 45% of 160
-80,Geography,Which place is known as the land of kingdom?
-81,Science,What is the energy of water?
-82,Mathematics,Solve: 45% of 160
-83,Geography,Which place is known as the kingdom of city?
-84,Science,What is the distance of distance?
-85,Geography,Which place is known as the valley of capital?
-86,Science,What is the speed of energy?
-87,Geography,Which place is known as the kingdom of valley?
-88,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
-89,Personality Test,Describe a situation where you solved conflict.
-90,Personality Test,Describe a situation where you showed determination.
-91,Personality Test,Describe a situation where you managed a team.
-92,General Knowledge,Who is known for vision in Indian history?
-93,General Knowledge,Who is known for contribution in Indian history?
-94,Science,What is the distance of force?
-95,Geography,Which place is known as the city of kingdom?
-96,Current Affairs,Which organization recently signed MoU?
-97,English,Choose the correct form of word: their / there / they're
-98,Mathematics,Solve: √144
-99,Geography,Which place is known as the city of city?
-100,Current Affairs,Which organization recently won global award?
-101,Personality Test,Describe a situation where you showed determination.
-102,Mathematics,Solve: √144
-103,Current Affairs,Which organization recently won global award?
-104,Personality Test,Describe a situation where you showed determination.
-105,Personality Test,Describe a situation where you showed determination.
-106,Mathematics,Solve: 45% of 160
-107,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
-108,Current Affairs,Which organization recently won global award?
-109,Geography,Which place is known as the city of city?
-110,English,Choose the correct form of word: run / runs / running
-111,Geography,Which place is known as the city of capital?
-112,Geography,Which place is known as the kingdom of capital?
-113,Science,What is the distance of speed?
-114,Mathematics,Solve: 12+15
-115,Mathematics,Solve: 45% of 160
-116,Science,What is the distance of distance?
-117,Mathematics,Solve: 19×6
-118,Geography,Which place is known as the city of capital?
-119,Personality Test,Describe a situation where you managed a team.
-120,Science,What is the speed of speed?
-121,Reasoning,Find the next pattern: RED → TGF
-122,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
-123,Personality Test,Describe a situation where you solved conflict.
-124,Geography,Which place is known as the city of city?
-125,Current Affairs,Which organization recently signed MoU?
-126,Science,What is the energy of water?
-127,Mathematics,Solve: 19×6
-128,Mathematics,Solve: √144
-129,Personality Test,Describe a situation where you managed a team.
-130,Current Affairs,Which organization recently won global award?
-131,English,Choose the correct form of word: their / there / they're
-132,Current Affairs,Which organization recently won global award?
-133,Geography,Which place is known as the land of kingdom?
-134,Geography,Which place is known as the valley of capital?
-135,General Knowledge,Who is known for leadership in Indian history?
-136,Geography,Which place is known as the valley of kingdom?
-137,Science,What is the force of distance?
-138,Reasoning,"Find the next pattern: A, C, E, ?"
-139,Science,What is the energy of energy?
-140,Mathematics,Solve: 12+15
-141,English,Choose the correct form of word: run / runs / running
-142,Mathematics,Solve: 45% of 160
-143,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
-144,English,Choose the correct form of word: their / there / they're
-145,Reasoning,"Find the next pattern: A, C, E, ?"
-146,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
-147,Science,What is the distance of force?
-148,Current Affairs,Which organization recently launched new scheme?
-149,Geography,Which place is known as the land of kingdom?
-150,Personality Test,Describe a situation where you solved conflict.
-151,General Knowledge,Who is known for contribution in Indian history?
-152,Reasoning,"Find the next pattern: A, C, E, ?"
-153,Reasoning,Find the next pattern: RED → TGF
-154,Reasoning,"Find the next pattern: A, C, E, ?"
-155,English,Choose the correct form of word: their / there / they're
-156,Science,What is the energy of water?
-157,General Knowledge,Who is known for vision in Indian history?
-158,Current Affairs,Which organization recently signed MoU?
-159,Current Affairs,Which organization recently launched new scheme?
-160,Mathematics,Solve: 45% of 160
-161,Personality Test,Describe a situation where you managed a team.
-162,Current Affairs,Which organization recently signed MoU?
-163,Geography,Which place is known as the land of capital?
-164,Current Affairs,Which organization recently launched new scheme?
-165,Mathematics,Solve: 45% of 160
-166,General Knowledge,Who is known for vision in Indian history?
-167,Geography,Which place is known as the valley of land?
-168,General Knowledge,Who is known for contribution in Indian history?
-169,General Knowledge,Who is known for invention in Indian history?
-170,Personality Test,Describe a situation where you managed a team.
-171,Personality Test,Describe a situation where you solved conflict.
-172,English,Choose the correct form of word: run / runs / running
-173,Mathematics,Solve: 12+15
-174,Mathematics,Solve: 19×6
-175,Personality Test,Describe a situation where you solved conflict.
-176,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
-177,Geography,Which place is known as the kingdom of valley?
-178,English,Choose the correct form of word: is / are
-179,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
-180,Mathematics,Solve: √144
-181,Personality Test,Describe a situation where you showed determination.
-182,Mathematics,Solve: 12+15
-183,Science,What is the energy of force?
-184,Personality Test,Describe a situation where you showed determination.
-185,Current Affairs,Which organization recently launched new scheme?
-186,General Knowledge,Who is known for leadership in Indian history?
-187,Science,What is the water of water?
-188,Reasoning,"Find the next pattern: A, C, E, ?"
-189,Geography,Which place is known as the valley of kingdom?
-190,Geography,Which place is known as the kingdom of capital?
-191,Geography,Which place is known as the kingdom of valley?
-192,Personality Test,Describe a situation where you solved conflict.
-193,Current Affairs,Which organization recently signed MoU?
-194,Current Affairs,Which organization recently launched new scheme?
-195,Geography,Which place is known as the kingdom of city?
-196,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
-197,Personality Test,Describe a situation where you managed a team.
-198,Science,What is the speed of distance?
-199,Science,What is the water of force?
-200,Mathematics,Solve: √144
-201,English,Choose the correct form of word: their / there / they're
-202,General Knowledge,Who is known for vision in Indian history?
-203,Personality Test,Describe a situation where you showed determination.
-204,Science,What is the speed of distance?
-205,Mathematics,Solve: √144
-206,Personality Test,Describe a situation where you solved conflict.
-207,Personality Test,Describe a situation where you managed a team.
-208,Mathematics,Solve: 19×6
-209,Geography,Which place is known as the valley of city?
-210,Reasoning,Find the next pattern: RED → TGF
-211,Science,What is the energy of energy?
-212,Science,What is the water of distance?
-213,English,Choose the correct form of word: run / runs / running
-214,Science,What is the force of speed?
-215,Geography,Which place is known as the kingdom of city?
-216,General Knowledge,Who is known for invention in Indian history?
-217,Mathematics,Solve: 19×6
-218,Current Affairs,Which organization recently won global award?
-219,Personality Test,Describe a situation where you solved conflict.
-220,English,Choose the correct form of word: their / there / they're
-221,Personality Test,Describe a situation where you showed determination.
-222,Geography,Which place is known as the kingdom of valley?
-223,Science,What is the distance of water?
-224,Mathematics,Solve: 12+15
-225,English,Choose the correct form of word: their / there / they're
-226,Personality Test,Describe a situation where you solved conflict.
-227,Mathematics,Solve: √144
-228,Mathematics,Solve: 19×6
-229,Geography,Which place is known as the kingdom of valley?
-230,Reasoning,Find the next pattern: RED → TGF
-231,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
-232,Science,What is the energy of force?
-233,Mathematics,Solve: √144
-234,Reasoning,Find the next pattern: RED → TGF
-235,Science,What is the water of distance?
-236,Current Affairs,Which organization recently launched new scheme?
-237,Science,What is the speed of water?
-238,General Knowledge,Who is known for vision in Indian history?
-239,Current Affairs,Which organization recently won global award?
-240,General Knowledge,Who is known for contribution in Indian history?
-241,Personality Test,Describe a situation where you managed a team.
-242,General Knowledge,Who is known for leadership in Indian history?
-243,Reasoning,Find the next pattern: RED → TGF
-244,English,Choose the correct form of word: run / runs / running
-245,Science,What is the distance of distance?
-246,Mathematics,Solve: 19×6
-247,English,Choose the correct form of word: their / there / they're
-248,Science,What is the energy of force?
-249,English,Choose the correct form of word: their / there / they're
-250,Geography,Which place is known as the valley of valley?
-251,Mathematics,Solve: √144
-252,Mathematics,Solve: 12+15
-253,Mathematics,Solve: √144
-254,Reasoning,Find the next pattern: RED → TGF
-255,English,Choose the correct form of word: run / runs / running
-256,Science,What is the speed of speed?
-257,Science,What is the distance of distance?
-258,Science,What is the water of water?
-259,Current Affairs,Which organization recently launched new scheme?
-260,General Knowledge,Who is known for service in Indian history?
-261,Mathematics,Solve: √144
-262,Current Affairs,Which organization recently launched new scheme?
-263,Current Affairs,Which organization recently won global award?
-264,English,Choose the correct form of word: is / are
-265,Reasoning,Find the next pattern: RED → TGF
-266,English,Choose the correct form of word: run / runs / running
-267,Current Affairs,Which organization recently won global award?
-268,Geography,Which place is known as the capital of land?
-269,English,Choose the correct form of word: their / there / they're
-270,Geography,Which place is known as the city of kingdom?
-271,Personality Test,Describe a situation where you solved conflict.
-272,General Knowledge,Who is known for service in Indian history?
-273,Science,What is the distance of distance?
-274,Mathematics,Solve: √144
-275,Current Affairs,Which organization recently launched new scheme?
-276,Mathematics,Solve: 12+15
-277,Geography,Which place is known as the land of land?
-278,Science,What is the force of water?
-279,Current Affairs,Which organization recently won global award?
-280,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
-281,Personality Test,Describe a situation where you solved conflict.
-282,Personality Test,Describe a situation where you solved conflict.
-283,Geography,Which place is known as the valley of capital?
-284,Geography,Which place is known as the city of land?
-285,English,Choose the correct form of word: their / there / they're
-286,Personality Test,Describe a situation where you managed a team.
-287,Mathematics,Solve: 12+15
-288,Current Affairs,Which organization recently won global award?
-289,English,Choose the correct form of word: run / runs / running
-290,Geography,Which place is known as the capital of valley?
-291,Reasoning,"Find the next pattern: A, C, E, ?"
-292,Current Affairs,Which organization recently won global award?
-293,English,Choose the correct form of word: their / there / they're
-294,Personality Test,Describe a situation where you managed a team.
-295,Science,What is the energy of force?
-296,English,Choose the correct form of word: run / runs / running
-297,Current Affairs,Which organization recently launched new scheme?
-298,Geography,Which place is known as the valley of valley?
-299,Reasoning,Find the next pattern: RED → TGF
-300,English,Choose the correct form of word: run / runs / running
-301,Science,What is the speed of speed?
-302,Personality Test,Describe a situation where you managed a team.
-303,English,Choose the correct form of word: run / runs / running
-304,Mathematics,Solve: 45% of 160
-305,Personality Test,Describe a situation where you solved conflict.
-306,Science,What is the speed of distance?
-307,Personality Test,Describe a situation where you showed determination.
-308,General Knowledge,Who is known for invention in Indian history?
-309,English,Choose the correct form of word: their / there / they're
-310,Science,What is the distance of force?
-311,Mathematics,Solve: 12+15
-312,Current Affairs,Which organization recently won global award?
-313,Personality Test,Describe a situation where you solved conflict.
-314,Reasoning,Find the next pattern: RED → TGF
-315,Geography,Which place is known as the valley of capital?
-316,Personality Test,Describe a situation where you showed determination.
-317,English,Choose the correct form of word: run / runs / running
-318,Mathematics,Solve: 19×6
-319,Geography,Which place is known as the valley of city?
-320,Current Affairs,Which organization recently won global award?
-321,Reasoning,"Find the next pattern: A, C, E, ?"
-322,Science,What is the distance of speed?
-323,Personality Test,Describe a situation where you solved conflict.
-324,Personality Test,Describe a situation where you solved conflict.
-325,Science,What is the energy of distance?
-326,Reasoning,"Find the next pattern: A, C, E, ?"
-327,Reasoning,"Find the next pattern: A, C, E, ?"
-328,Science,What is the energy of distance?
-329,English,Choose the correct form of word: their / there / they're
-330,English,Choose the correct form of word: is / are
-331,English,Choose the correct form of word: is / are
-332,General Knowledge,Who is known for service in Indian history?
-333,Geography,Which place is known as the capital of land?
-334,Science,What is the energy of energy?
-335,General Knowledge,Who is known for vision in Indian history?
-336,Reasoning,"Find the next pattern: A, C, E, ?"
-337,Reasoning,"Find the next pattern: A, C, E, ?"
-338,English,Choose the correct form of word: their / there / they're
-339,Geography,Which place is known as the kingdom of kingdom?
-340,Reasoning,Find the next pattern: RED → TGF
-341,Mathematics,Solve: 45% of 160
-342,Current Affairs,Which organization recently launched new scheme?
-343,Science,What is the water of distance?
-344,Geography,Which place is known as the capital of city?
-345,Current Affairs,Which organization recently won global award?
-346,Reasoning,"Find the next pattern: A, C, E, ?"
-347,Science,What is the force of energy?
-348,Geography,Which place is known as the capital of city?
-349,Mathematics,Solve: 45% of 160
-350,English,Choose the correct form of word: is / are
-351,Science,What is the distance of distance?
-352,Personality Test,Describe a situation where you solved conflict.
-353,Geography,Which place is known as the kingdom of land?
-354,Science,What is the water of energy?
-355,English,Choose the correct form of word: run / runs / running
-356,English,Choose the correct form of word: their / there / they're
-357,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
-358,General Knowledge,Who is known for leadership in Indian history?
-359,Personality Test,Describe a situation where you managed a team.
-360,Mathematics,Solve: √144
-361,Current Affairs,Which organization recently won global award?
-362,Reasoning,"Find the next pattern: A, C, E, ?"
-363,Personality Test,Describe a situation where you managed a team.
-364,Current Affairs,Which organization recently signed MoU?
-365,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
-366,General Knowledge,Who is known for leadership in Indian history?
-367,General Knowledge,Who is known for leadership in Indian history?
-368,Current Affairs,Which organization recently launched new scheme?
-369,English,Choose the correct form of word: run / runs / running
-370,Geography,Which place is known as the land of kingdom?
-371,English,Choose the correct form of word: run / runs / running
-372,Personality Test,Describe a situation where you showed determination.
-373,English,Choose the correct form of word: is / are
-374,Geography,Which place is known as the valley of kingdom?
-375,English,Choose the correct form of word: run / runs / running
-376,Personality Test,Describe a situation where you solved conflict.
-377,Personality Test,Describe a situation where you solved conflict.
-378,General Knowledge,Who is known for leadership in Indian history?
-379,English,Choose the correct form of word: their / there / they're
-380,Reasoning,"Find the next pattern: A, C, E, ?"
-381,General Knowledge,Who is known for leadership in Indian history?
-382,English,Choose the correct form of word: their / there / they're
-383,English,Choose the correct form of word: is / are
-384,English,Choose the correct form of word: run / runs / running
-385,General Knowledge,Who is known for vision in Indian history?
-386,General Knowledge,Who is known for contribution in Indian history?
-387,General Knowledge,Who is known for vision in Indian history?
-388,Personality Test,Describe a situation where you managed a team.
-389,Mathematics,Solve: 12+15
-390,Personality Test,Describe a situation where you showed determination.
-391,Current Affairs,Which organization recently won global award?
-392,Personality Test,Describe a situation where you managed a team.
-393,General Knowledge,Who is known for invention in Indian history?
-394,English,Choose the correct form of word: run / runs / running
-395,Personality Test,Describe a situation where you managed a team.
-396,Current Affairs,Which organization recently signed MoU?
-397,Personality Test,Describe a situation where you showed determination.
-398,English,Choose the correct form of word: is / are
-399,Personality Test,Describe a situation where you solved conflict.
-400,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
-401,General Knowledge,Who is known for invention in Indian history?
-402,General Knowledge,Who is known for vision in Indian history?
-403,English,Choose the correct form of word: their / there / they're
-404,English,Choose the correct form of word: is / are
-405,Geography,Which place is known as the land of capital?
-406,General Knowledge,Who is known for contribution in Indian history?
-407,Mathematics,Solve: 45% of 160
-408,Reasoning,"Find the next pattern: A, C, E, ?"
-409,Mathematics,Solve: 19×6
-410,Personality Test,Describe a situation where you solved conflict.
-411,Mathematics,Solve: √144
-412,Geography,Which place is known as the land of kingdom?
-413,English,Choose the correct form of word: run / runs / running
-414,Science,What is the speed of energy?
-415,Science,What is the force of water?
-416,Reasoning,"Find the next pattern: A, C, E, ?"
-417,Current Affairs,Which organization recently launched new scheme?
-418,Current Affairs,Which organization recently signed MoU?
-419,Science,What is the force of force?
-420,General Knowledge,Who is known for vision in Indian history?
-421,Science,What is the force of speed?
-422,Science,What is the force of force?
-423,Mathematics,Solve: 45% of 160
-424,Geography,Which place is known as the kingdom of valley?
-425,Current Affairs,Which organization recently launched new scheme?
-426,Science,What is the speed of force?
-427,Geography,Which place is known as the kingdom of land?
-428,English,Choose the correct form of word: their / there / they're
-429,Personality Test,Describe a situation where you showed determination.
-430,Reasoning,Find the next pattern: RED → TGF
-431,Science,What is the distance of distance?
-432,English,Choose the correct form of word: is / are
-433,General Knowledge,Who is known for service in Indian history?
-434,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
-435,General Knowledge,Who is known for vision in Indian history?
-436,Mathematics,Solve: 19×6
-437,General Knowledge,Who is known for leadership in Indian history?
-438,Science,What is the water of energy?
-439,Geography,Which place is known as the land of valley?
-440,General Knowledge,Who is known for invention in Indian history?
-441,Science,What is the distance of water?
-442,Geography,Which place is known as the capital of kingdom?
-443,Personality Test,Describe a situation where you managed a team.
-444,Personality Test,Describe a situation where you managed a team.
-445,Reasoning,Find the next pattern: RED → TGF
-446,Geography,Which place is known as the kingdom of valley?
-447,General Knowledge,Who is known for invention in Indian history?
-448,Current Affairs,Which organization recently signed MoU?
-449,Personality Test,Describe a situation where you managed a team.
-450,General Knowledge,Who is known for service in Indian history?
-451,Geography,Which place is known as the valley of kingdom?
-452,General Knowledge,Who is known for vision in Indian history?
-453,Personality Test,Describe a situation where you managed a team.
-454,Personality Test,Describe a situation where you managed a team.
-455,Reasoning,"Find the next pattern: A, C, E, ?"
-456,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
-457,Reasoning,Find the next pattern: RED → TGF
-458,Personality Test,Describe a situation where you managed a team.
-459,General Knowledge,Who is known for leadership in Indian history?
-460,Reasoning,Find the next pattern: RED → TGF
-461,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
-462,Personality Test,Describe a situation where you solved conflict.
-463,Personality Test,Describe a situation where you showed determination.
-464,English,Choose the correct form of word: run / runs / running
-465,General Knowledge,Who is known for contribution in Indian history?
-466,Geography,Which place is known as the valley of capital?
-467,Current Affairs,Which organization recently won global award?
-468,English,Choose the correct form of word: is / are
-469,Geography,Which place is known as the valley of city?
-470,English,Choose the correct form of word: is / are
-471,Mathematics,Solve: √144
-472,Science,What is the speed of speed?
-473,General Knowledge,Who is known for vision in Indian history?
-474,General Knowledge,Who is known for vision in Indian history?
-475,English,Choose the correct form of word: run / runs / running
-476,Reasoning,"Find the next pattern: A, C, E, ?"
-477,Current Affairs,Which organization recently signed MoU?
-478,Personality Test,Describe a situation where you managed a team.
-479,Science,What is the force of water?
-480,Reasoning,Find the next pattern: RED → TGF
-481,General Knowledge,Who is known for leadership in Indian history?
-482,General Knowledge,Who is known for invention in Indian history?
-483,Geography,Which place is known as the city of land?
-484,General Knowledge,Who is known for service in Indian history?
-485,English,Choose the correct form of word: run / runs / running
-486,English,Choose the correct form of word: run / runs / running
-487,Geography,Which place is known as the land of land?
-488,Science,What is the distance of water?
-489,Geography,Which place is known as the land of kingdom?
-490,Geography,Which place is known as the valley of kingdom?
-491,Reasoning,"Find the next pattern: A, C, E, ?"
-492,Reasoning,Find the next pattern: RED → TGF
-493,Science,What is the water of speed?
-494,Geography,Which place is known as the city of kingdom?
-495,Personality Test,Describe a situation where you managed a team.
-496,English,Choose the correct form of word: run / runs / running
-497,Personality Test,Describe a situation where you showed determination.
-498,English,Choose the correct form of word: run / runs / running
-499,Geography,Which place is known as the city of capital?
-500,Science,What is the distance of water?
-501,Mathematics,Solve: 45% of 160
-502,Reasoning,Find the next pattern: RED → TGF
-503,Science,What is the speed of distance?
-504,General Knowledge,Who is known for leadership in Indian history?
-505,English,Choose the correct form of word: is / are
-506,Science,What is the water of speed?
-507,Mathematics,Solve: √144
-508,Mathematics,Solve: 19×6
-509,Mathematics,Solve: 45% of 160
-510,General Knowledge,Who is known for service in Indian history?
-511,General Knowledge,Who is known for leadership in Indian history?
-512,General Knowledge,Who is known for service in Indian history?
-513,English,Choose the correct form of word: is / are
-514,Personality Test,Describe a situation where you managed a team.
-515,Geography,Which place is known as the city of city?
-516,Current Affairs,Which organization recently signed MoU?
-517,Geography,Which place is known as the valley of land?
-518,Reasoning,"Find the next pattern: 2, 4, 8, 16, ?"
-519,Current Affairs,Which organization recently signed MoU?
-520,General Knowledge,Who is known for service in Indian history?
+﻿question_id,category,difficulty,question_text,keywords,reference_answer,language
+1,General Knowledge,easy,Who was the first President of India?,rajendra prasad|president|1950,"Dr. Rajendra Prasad was the first President of India, serving from 1950 to 1962.",en
+2,General Knowledge,easy,What is the national emblem of India?,ashoka|lion capital|sarnath,"The Lion Capital of Ashoka at Sarnath is the national emblem of India, adopted on 26 January 1950.",en
+3,General Knowledge,easy,How many fundamental rights are there in the Indian Constitution?,six|fundamental rights|constitution,"There are six fundamental rights in the Indian Constitution: Right to Equality, Right to Freedom, Right against Exploitation, Right to Freedom of Religion, Cultural and Educational Rights, and Right to Constitutional Remedies.",en
+4,General Knowledge,medium,Explain the significance of the Quit India Movement.,1942|gandhi|british|independence,"The Quit India Movement was launched on 8 August 1942 by Mahatma Gandhi, demanding an end to British rule. It was a mass civil disobedience movement that significantly accelerated India's path to independence.",en
+5,General Knowledge,medium,What is the difference between the Rajya Sabha and Lok Sabha?,upper house|lower house|parliament|elected|nominated,"The Lok Sabha is the lower house with 545 directly elected members, while the Rajya Sabha is the upper house with 245 members elected by state legislatures and nominated by the President. Lok Sabha has a 5-year term while Rajya Sabha members serve 6 years.",en
+6,General Knowledge,medium,Who was Subhas Chandra Bose and what was his contribution to India's freedom?,netaji|ina|azad hind|forward bloc,"Subhas Chandra Bose, known as Netaji, founded the Indian National Army (INA) and the Azad Hind government. He led the INA alongside Japanese forces against British colonial rule during World War II.",en
+7,General Knowledge,hard,Discuss the role of the National Security Council in India's defence policy.,nsc|prime minister|advisory|strategic|defence,"The National Security Council (NSC) is the apex body for strategic decision-making, chaired by the Prime Minister. It includes the National Security Adviser, ministers of Defence, External Affairs, Home, and Finance. It advises on matters of national security, nuclear policy, and strategic defence planning.",en
+8,General Knowledge,hard,Explain the concept of judicial review in India and its importance.,supreme court|constitution|legislative|executive|unconstitutional,"Judicial review is the power of the Supreme Court and High Courts to examine the constitutionality of legislative and executive actions. Under Articles 13, 32, and 226, courts can declare any law or action void if it violates fundamental rights or exceeds constitutional authority.",en
+9,General Knowledge,easy,What is the full form of NDA in the context of defence?,national defence academy|khadakwasla|pune|training,"NDA stands for National Defence Academy, located in Khadakwasla near Pune. It is a joint services academy that trains cadets for the Indian Army, Navy, and Air Force.",en
+10,General Knowledge,medium,What are the Panchsheel principles?,five principles|peaceful coexistence|nehru|china|1954,"The Panchsheel or Five Principles of Peaceful Coexistence were agreed upon by India and China in 1954: mutual respect for sovereignty, non-aggression, non-interference, equality and mutual benefit, and peaceful coexistence.",en
+11,General Knowledge,hard,Analyze the strategic importance of India's nuclear doctrine.,no first use|credible minimum deterrence|nuclear triad|retaliation,"India's nuclear doctrine is based on credible minimum deterrence and a no-first-use policy. It maintains a nuclear triad capability across land, sea, and air. India commits to massive retaliation only in response to a nuclear attack on Indian territory or forces.",en
+12,General Knowledge,easy,Name the three wings of the Indian Armed Forces.,army|navy|air force|defence,"The three wings of the Indian Armed Forces are the Indian Army, Indian Navy, and Indian Air Force, operating under the Ministry of Defence.",en
+13,General Knowledge,medium,What is the significance of Republic Day in India?,26 january|constitution|1950|parade|rajpath,"Republic Day is celebrated on 26 January to commemorate the adoption of the Indian Constitution in 1950. The day features a grand military parade on Rajpath, New Delhi, showcasing India's defence capability and cultural diversity.",en
+14,General Knowledge,hard,Explain the role of DRDO in India's defence modernization.,defence research|missiles|combat|indigenous|development,"DRDO (Defence Research and Development Organisation) is responsible for India's military research and development. It has developed indigenous missiles (Agni, Prithvi, BrahMos), combat aircraft (Tejas), tanks (Arjun), and electronic warfare systems, reducing India's dependence on foreign defence equipment.",en
+15,General Knowledge,medium,What is Article 370 and why was it significant?,jammu kashmir|special status|autonomous|abrogated|2019,"Article 370 granted special autonomous status to Jammu and Kashmir within the Indian Union. It was abrogated on 5 August 2019, and the state was reorganized into two Union Territories: J&K and Ladakh.",en
+16,Geography,easy,What is the longest river in India?,ganga|ganges|2525|varanasi|bay of bengal,"The Ganga (Ganges) is the longest river in India, spanning approximately 2,525 km. It originates at Gangotri glacier and flows into the Bay of Bengal.",en
+17,Geography,easy,Name the highest peak in India.,kangchenjunga|8586|sikkim|himalaya,"Kangchenjunga at 8,586 metres is the highest peak in India, located on the border of Sikkim and Nepal in the Himalayas.",en
+18,Geography,medium,Explain the strategic importance of the Siachen Glacier.,glacier|kashmir|pakistan|china|highest battleground,"The Siachen Glacier in Ladakh is the highest battleground in the world at over 20,000 feet. It holds strategic importance as it prevents the joining of Pakistani and Chinese-controlled territories and acts as a buffer zone.",en
+19,Geography,medium,What are the major mountain passes of India and their strategic significance?,khyber|banihal|rohtang|nathu la|border,"Major passes include Khyber Pass (historical invasion route), Banihal Pass (connects Jammu to Kashmir), Rohtang Pass (Manali-Leh highway), and Nathu La (India-China border in Sikkim). They are critical for military movement and border security.",en
+20,Geography,easy,Which ocean surrounds India on three sides?,indian ocean|arabian sea|bay of bengal|peninsula,"India is a peninsula surrounded by the Arabian Sea on the west, the Bay of Bengal on the east, and the Indian Ocean to the south.",en
+21,Geography,hard,Discuss the geopolitical significance of the Andaman and Nicobar Islands.,andaman|nicobar|malacca strait|naval|strategic,"The Andaman and Nicobar Islands are strategically located near the Malacca Strait, one of the world's busiest shipping lanes. India's tri-service command there allows monitoring of maritime traffic, projecting naval power into Southeast Asia, and countering Chinese influence in the Indian Ocean.",en
+22,Geography,medium,What is the Deccan Plateau and describe its geographical features.,plateau|peninsular|granite|black soil|western ghats|eastern ghats,"The Deccan Plateau is a large triangular plateau in peninsular India, bounded by the Western and Eastern Ghats. It is composed largely of igneous rocks, has black cotton soil in parts, and is drained by rivers like Godavari, Krishna, and Kaveri flowing eastward.",en
+23,Geography,hard,Explain the concept of the Indian Ocean Region (IOR) and its importance for India's maritime security.,indian ocean|sea lanes|trade routes|naval dominance|piracy|china,"The IOR spans from the Strait of Hormuz to the Malacca Strait, carrying 80% of world oil trade. India's peninsular position gives it natural dominance. Key concerns include Chinese naval expansion (String of Pearls), piracy, and securing sea lanes of communication for energy and trade.",en
+24,Geography,easy,What is the Thar Desert and where is it located?,thar|rajasthan|great indian desert|arid,"The Thar Desert, also called the Great Indian Desert, is located primarily in Rajasthan. It is India's largest arid region, spanning about 200,000 sq km and forming a natural boundary with Pakistan.",en
+25,Geography,medium,Describe the course and significance of the Brahmaputra River.,brahmaputra|tibet|assam|bangladesh|flood|strategic,"The Brahmaputra originates in Tibet as Tsangpo, enters India through Arunachal Pradesh, flows through Assam, and exits into Bangladesh. It is strategically important as a transboundary river, causes major flooding, and its waters are a source of geopolitical tension between India and China.",en
+26,Geography,easy,Name the states that share an international border with China.,arunachal pradesh|sikkim|uttarakhand|himachal pradesh|ladakh,"Five Indian states/UTs share a border with China: Ladakh, Himachal Pradesh, Uttarakhand, Sikkim, and Arunachal Pradesh, along the Line of Actual Control (LAC).",en
+27,Geography,hard,Analyze the significance of the Palk Strait and its impact on India-Sri Lanka relations.,palk strait|sri lanka|tamil nadu|fishing|maritime boundary,"The Palk Strait separates India's Tamil Nadu from Sri Lanka, only 53-80 km wide. It is significant for fishing disputes, refugee movement during the Sri Lankan civil war, and proposed connectivity projects like the Sethusamudram Shipping Canal.",en
+28,Geography,medium,What is the significance of the Western Ghats?,western ghats|biodiversity|rainfall|rivers|unesco,"The Western Ghats are a UNESCO World Heritage biodiversity hotspot running 1,600 km along India's western coast. They influence monsoon rainfall patterns, are the source of major peninsular rivers (Godavari, Krishna, Kaveri), and host unique ecosystems.",en
+29,Geography,medium,Explain the Line of Actual Control (LAC).,lac|china|disputed|border|doklam|galwan,"The LAC is the de facto border between India and China, approximately 3,488 km long. Unlike the Line of Control with Pakistan, it is not marked on maps agreed by both nations, leading to disputes at places like Doklam, Galwan Valley, and Pangong Lake.",en
+30,Geography,hard,Discuss the strategic importance of the Strait of Malacca for India.,malacca|trade route|china|southeast asia|energy|chokepoint,The Strait of Malacca between Malaysia and Indonesia is a critical maritime chokepoint through which 60% of India's trade and 80% of its energy imports pass. China's dependence on this strait has led to India strengthening its presence through the Andaman and Nicobar Command to ensure freedom of navigation.,en
+31,Science,easy,What is Newton's Third Law of Motion?,action|reaction|equal|opposite|force,"Newton's Third Law states that for every action, there is an equal and opposite reaction. When one body exerts a force on another, the second body exerts an equal force in the opposite direction on the first.",en
+32,Science,easy,What is the chemical formula for water?,h2o|hydrogen|oxygen|molecule,"Water has the chemical formula H₂O, consisting of two hydrogen atoms bonded to one oxygen atom through covalent bonds.",en
+33,Science,medium,Explain how radar technology works and its military applications.,radio waves|detection|ranging|aircraft|surveillance,"Radar (Radio Detection and Ranging) works by transmitting radio waves that bounce off objects and return to the receiver. The time delay and frequency shift reveal the object's distance, speed, and direction. Military applications include air defence, missile tracking, ground surveillance, and naval target detection.",en
+34,Science,medium,What is the difference between nuclear fission and nuclear fusion?,fission|fusion|splitting|combining|energy|uranium|hydrogen,"Nuclear fission splits heavy atoms (like Uranium-235) into lighter ones, releasing energy; it powers nuclear reactors and atomic bombs. Nuclear fusion combines light atoms (hydrogen isotopes) into heavier ones (helium), releasing far more energy; it powers the sun and hydrogen bombs.",en
+35,Science,hard,Explain the working principle of a ballistic missile and its trajectory.,ballistic|trajectory|parabolic|reentry|propulsion|warhead,"A ballistic missile is propelled by rocket engines during its boost phase, then follows a free-flight ballistic (parabolic) trajectory under gravity. The three phases are: boost (powered ascent), midcourse (exoatmospheric flight), and terminal (atmospheric reentry). ICBMs can reach speeds of Mach 20+ during reentry.",en
+36,Science,easy,What is the speed of light?,light|speed|300000|vacuum|electromagnetic,"The speed of light in a vacuum is approximately 3 × 10⁸ metres per second (about 300,000 km/s). It is the fastest speed at which energy or information can travel.",en
+37,Science,medium,How do stealth aircraft avoid radar detection?,stealth|radar|absorb|geometry|cross section|coating,"Stealth aircraft use angular geometry to deflect radar waves away from the receiver, radar-absorbing materials (RAM) coatings, internal weapons bays to reduce radar cross-section, and engine designs that minimize infrared signatures.",en
+38,Science,hard,Describe the principle behind GPS satellite navigation.,gps|satellite|trilateration|atomic clock|orbit|positioning,"GPS uses a constellation of 24+ satellites in medium Earth orbit. Each satellite transmits precise time signals from atomic clocks. A GPS receiver calculates its position by measuring the time delay from at least 4 satellites and using trilateration to determine latitude, longitude, and altitude.",en
+39,Science,easy,What is the unit of electric current?,ampere|current|charge|coulomb,"The unit of electric current is the Ampere (A), defined as one coulomb of charge flowing per second through a conductor.",en
+40,Science,medium,What is sonar and how is it used in naval warfare?,sonar|sound|underwater|submarine|detection|acoustic,"Sonar (Sound Navigation and Ranging) uses sound waves to detect underwater objects. Active sonar emits pulses and listens for echoes; passive sonar only listens for sounds. It is crucial for submarine detection, mine hunting, torpedo guidance, and mapping the ocean floor.",en
+41,Science,hard,Explain the electromagnetic spectrum and its military significance.,electromagnetic|radio|infrared|microwave|visible|uv|frequency,"The electromagnetic spectrum ranges from radio waves to gamma rays. Military uses include: radio (communications), microwave (radar), infrared (night vision, heat-seeking missiles), visible (laser targeting), UV (chemical detection), and gamma (nuclear detection). Each band has unique detection and countermeasure applications.",en
+42,Science,medium,What is the greenhouse effect?,greenhouse|carbon dioxide|atmosphere|warming|radiation,"The greenhouse effect occurs when atmospheric gases (CO₂, methane, water vapor) trap infrared radiation from Earth's surface, warming the atmosphere. While natural levels sustain life, increased CO₂ from fossil fuels has intensified this effect, causing global warming.",en
+43,Science,easy,What gas do plants absorb during photosynthesis?,carbon dioxide|co2|photosynthesis|oxygen|sunlight,"Plants absorb carbon dioxide (CO₂) from the atmosphere during photosynthesis, using sunlight energy to convert it into glucose and release oxygen.",en
+44,Science,hard,Describe the working of a nuclear submarine reactor.,nuclear|submarine|reactor|pressurized water|steam|propulsion,"Nuclear submarines use pressurized water reactors (PWR). Uranium fuel undergoes controlled fission, heating pressurized water in the primary loop. This heat transfers to a secondary loop, generating steam that drives turbines for propulsion and electricity. They can operate submerged for months without refueling.",en
+45,Science,medium,What is the Doppler effect and give an example.,doppler|frequency|approach|recede|wavelength|sound,"The Doppler effect is the change in frequency of a wave relative to a moving observer. When a source approaches, frequency increases (higher pitch/blueshift); when it recedes, frequency decreases (lower pitch/redshift). Example: an ambulance siren sounds higher-pitched as it approaches.",en
+46,Mathematics,easy,What is the value of pi (π)?,pi|3.14|circumference|diameter|irrational,"Pi (π) is approximately 3.14159, an irrational number representing the ratio of a circle's circumference to its diameter.",en
+47,Mathematics,easy,Calculate: 15% of 800.,15|percent|800|120|multiplication,15% of 800 = (15/100) × 800 = 120.,en
+48,Mathematics,easy,What is the Pythagorean theorem?,pythagorean|hypotenuse|right triangle|a squared|b squared|c squared,"The Pythagorean theorem states that in a right-angled triangle, the square of the hypotenuse equals the sum of squares of the other two sides: a² + b² = c².",en
+49,Mathematics,medium,"If a train travels 360 km in 4 hours, what is its average speed?",speed|distance|time|90|km per hour,Average speed = Distance ÷ Time = 360 ÷ 4 = 90 km/h.,en
+50,Mathematics,medium,"Solve: If 3x + 7 = 22, find the value of x.",equation|solve|x|5|linear,3x + 7 = 22 → 3x = 22 - 7 → 3x = 15 → x = 5.,en
+51,Mathematics,hard,A boat travels 24 km upstream in 6 hours and 24 km downstream in 4 hours. Find the speed of the boat in still water.,upstream|downstream|speed|boat|current|5,Speed upstream = 24/6 = 4 km/h. Speed downstream = 24/4 = 6 km/h. Speed of boat in still water = (4+6)/2 = 5 km/h.,en
+52,Mathematics,easy,What is the area of a circle with radius 7 cm?,area|circle|pi|radius|154,Area = π × r² = 22/7 × 7 × 7 = 154 sq cm.,en
+53,Mathematics,medium,Find the HCF of 36 and 48.,hcf|gcd|factors|12|common,"Factors of 36: 1,2,3,4,6,9,12,18,36. Factors of 48: 1,2,3,4,6,8,12,16,24,48. HCF = 12.",en
+54,Mathematics,hard,In how many ways can 5 people be seated in a row?,permutation|factorial|5|120|arrangement,Number of ways = 5! = 5 × 4 × 3 × 2 × 1 = 120.,en
+55,Mathematics,medium,What is the compound interest on Rs 10000 at 10% per annum for 2 years?,compound interest|principal|rate|amount|2100,A = P(1+r/100)^n = 10000(1.1)² = 12100. CI = 12100 - 10000 = Rs 2100.,en
+56,Mathematics,easy,Convert 0.75 into a fraction.,fraction|decimal|3/4|convert,0.75 = 75/100 = 3/4.,en
+57,Mathematics,hard,A tank can be filled by pipe A in 12 hours and by pipe B in 15 hours. How long to fill if both work together?,pipe|tank|work|together|hours|rate,"Rate of A = 1/12, Rate of B = 1/15. Combined rate = 1/12 + 1/15 = 5/60 + 4/60 = 9/60 = 3/20. Time = 20/3 = 6 hours 40 minutes.",en
+58,Mathematics,medium,What is the probability of getting a head when tossing a fair coin?,probability|coin|head|1/2|equally likely,Probability = favorable outcomes / total outcomes = 1/2 = 0.5 or 50%.,en
+59,Mathematics,hard,"If log₁₀2 = 0.3010, find log₁₀8.",logarithm|log|base|power|0.9030,log₁₀8 = log₁₀(2³) = 3 × log₁₀2 = 3 × 0.3010 = 0.9030.,en
+60,Mathematics,medium,"The ratio of ages of A and B is 3:5. If the sum of their ages is 48, find their ages.",ratio|age|sum|18|30,"Let ages be 3x and 5x. 3x + 5x = 48 → 8x = 48 → x = 6. Ages: A = 18, B = 30.",en
+61,Current Affairs,easy,Who is the current President of India?,president|india|head of state|rashtrapati bhavan,"The President of India is the constitutional head of state, residing at Rashtrapati Bhavan, New Delhi.",en
+62,Current Affairs,easy,What is the Make in India initiative?,make in india|manufacturing|self reliance|modi|2014,"Make in India is a government initiative launched in 2014 to encourage domestic and foreign companies to manufacture products in India, boosting economic growth and creating jobs, especially in the defence sector.",en
+63,Current Affairs,medium,What is the Agnipath scheme for military recruitment?,agnipath|agniveer|4 years|recruitment|youth|armed forces,"The Agnipath scheme, launched in 2022, recruits youth as Agniveers for a 4-year tenure in the Armed Forces. After 4 years, 25% are retained for regular service. It aims to create a younger, fitter fighting force.",en
+64,Current Affairs,medium,Explain India's role in the Quad alliance.,quad|usa|japan|australia|indo pacific|china|security,"The Quad (Quadrilateral Security Dialogue) comprises India, USA, Japan, and Australia. It focuses on a free and open Indo-Pacific region, maritime security, countering Chinese expansionism, technology cooperation, and vaccine diplomacy.",en
+65,Current Affairs,hard,Discuss the implications of the India-China border standoff in Ladakh.,ladakh|galwan|lac|standoff|disengagement|pangong,"The 2020 India-China standoff in Ladakh, including the deadly Galwan Valley clash, led to significant military buildup along the LAC. It resulted in diplomatic tensions, ban on Chinese apps, trade restrictions, and accelerated India's infrastructure development along border areas.",en
+66,Current Affairs,easy,What is Digital India?,digital india|internet|technology|governance|e-governance,"Digital India is a government initiative to transform India into a digitally empowered society through improved online infrastructure, digital literacy, and delivery of government services electronically.",en
+67,Current Affairs,medium,What is the significance of Chandrayaan-3?,chandrayaan|moon|isro|south pole|landing|vikram|rover,"Chandrayaan-3 successfully landed on the Moon's south pole in August 2023, making India the first country to achieve this and the fourth to land on the Moon. The Vikram lander and Pragyan rover conducted scientific experiments studying lunar soil and atmosphere.",en
+68,Current Affairs,hard,Analyze the impact of AUKUS on India's Indo-Pacific strategy.,aukus|australia|uk|usa|submarine|nuclear|indo pacific,"AUKUS is a security partnership between Australia, UK, and USA providing nuclear-powered submarines to Australia. While India is not a member, it impacts India's Indo-Pacific calculus by strengthening Western presence, potentially counterbalancing China, but also raising concerns about nuclear proliferation and overlapping with Quad objectives.",en
+69,Current Affairs,medium,What is the Rafale fighter jet deal and its significance for India?,rafale|france|fighter|dassault|air force|36,"India acquired 36 Rafale omnirole fighter jets from France's Dassault Aviation, enhancing the IAF's capabilities with advanced avionics, beyond-visual-range missiles (Meteor), and nuclear delivery capability. They significantly boost India's air superiority.",en
+70,Current Affairs,hard,Discuss India's stance on the Russia-Ukraine conflict.,russia|ukraine|conflict|neutral|un|abstain|energy,"India has maintained a balanced position, abstaining from UN votes condemning Russia while calling for dialogue and diplomacy. India continues to purchase Russian oil and maintains defence ties with Russia (S-400) while engaging with Western partners, prioritizing its strategic autonomy.",en
+71,Current Affairs,easy,What is Swachh Bharat Mission?,swachh bharat|clean india|sanitation|hygiene|toilets|2014,"Swachh Bharat (Clean India) Mission, launched in 2014, aims to achieve universal sanitation coverage by building toilets, managing waste, and promoting hygiene awareness across urban and rural India.",en
+72,Current Affairs,medium,What are India's permanent membership aspirations at the UN Security Council?,unsc|permanent member|reform|veto|g4,"India seeks permanent membership in the UN Security Council, currently held by 5 nations (US, UK, France, Russia, China). As part of the G4 (with Germany, Japan, Brazil), India argues its large population, economic growth, and contributions to UN peacekeeping warrant a permanent seat.",en
+73,Current Affairs,medium,Explain the significance of the S-400 missile defence system for India.,s400|russia|missile|air defence|triumph|caatsa,"The S-400 Triumf is an advanced air defence system procured from Russia, capable of engaging aircraft, missiles, and drones at ranges up to 400 km. India acquired it despite US CAATSA sanctions threats, as it significantly enhances India's multi-layered air defence.",en
+74,Current Affairs,hard,Discuss the concept of Atmanirbhar Bharat in the defence sector.,atmanirbhar|self reliant|defence|indigenous|import|manufacturing,"Atmanirbhar Bharat (Self-Reliant India) in defence aims to reduce dependence on imported weapons. Key steps include positive indigenization lists banning import of 400+ items, increased FDI limits, defence corridors in UP and Tamil Nadu, and promoting private sector participation in defence manufacturing.",en
+75,Current Affairs,easy,What is the One Nation One Ration Card scheme?,one nation|ration card|food security|portability|migrant,"The One Nation One Ration Card scheme enables beneficiaries to access their food grain entitlements from any Fair Price Shop across India using the same ration card, particularly benefiting migrant workers.",en
+76,Reasoning,easy,"Complete the series: 2, 6, 18, 54, ?",series|pattern|multiply|3|162,"Each number is multiplied by 3: 2×3=6, 6×3=18, 18×3=54, 54×3=162. Answer: 162.",en
+77,Reasoning,easy,"If all roses are flowers and some flowers are red, can we conclude all roses are red?",logic|syllogism|conclusion|invalid|some,"No, we cannot conclude that all roses are red. While all roses are flowers, only some flowers are red. The roses could be among the non-red flowers. The conclusion is logically invalid.",en
+78,Reasoning,medium,A clock shows 3:15. What is the angle between the hour and minute hands?,clock|angle|hour|minute|7.5,"At 3:15, the minute hand is at 90° (pointing at 3). The hour hand has moved past 3 by 15 minutes: 90° + (15 × 0.5°) = 97.5°. Angle between them = 97.5° - 90° = 7.5°.",en
+79,Reasoning,medium,"Find the odd one out: Mars, Jupiter, Sun, Saturn, Neptune.",odd one out|sun|star|planet|solar system,"Sun is the odd one out. Mars, Jupiter, Saturn, and Neptune are all planets, while the Sun is a star.",en
+80,Reasoning,hard,"If A is the brother of B, B is the sister of C, and C is the father of D, how is A related to D?",relation|family|uncle|brother|sister|father,"A is D's uncle. C is D's father, B is C's sister, and A is B's brother. So A is the brother of D's father's sister, making A the uncle of D.",en
+81,Reasoning,easy,"What comes next: J, F, M, A, M, J, J, ?",months|pattern|august|calendar|sequence,"A (August). The letters represent the first letters of months: January, February, March, April, May, June, July, August.",en
+82,Reasoning,medium,"A man walks 5 km south, then 3 km east, then 5 km north. How far is he from the starting point?",direction|distance|starting point|3 km|east,"He is 3 km east of his starting point. The 5 km south and 5 km north cancel each other out, leaving only the 3 km eastward displacement.",en
+83,Reasoning,hard,"In a row of 40 students, R is 11th from the left and S is 16th from the right. How many students are between them?",position|row|left|right|between|14,"R is 11th from left, S is 16th from right (i.e., 40-16+1 = 25th from left). Students between them = 25 - 11 - 1 = 13.",en
+84,Reasoning,easy,"If APPLE is coded as ELPPA, how is MANGO coded?",code|reverse|pattern|ognam,"Following the reverse pattern, MANGO would be coded as OGNAM.",en
+85,Reasoning,medium,"Three friends A, B, C have different heights. A is taller than B. C is shorter than B. Who is the shortest?",comparison|height|order|shortest|tallest,C is the shortest. The order from tallest to shortest is: A > B > C.,en
+86,Reasoning,hard,"A statement says: All soldiers are brave. Some brave people are leaders. Which conclusion is valid: (a) All soldiers are leaders, (b) Some soldiers may be leaders, (c) No soldiers are leaders?",syllogism|logic|valid|conclusion|some|may,"Option (b) is valid. Since all soldiers are brave and some brave people are leaders, it is possible that some soldiers are among those brave people who are leaders, but it is not certain.",en
+87,Reasoning,medium,"If 1=5, 2=25, 3=125, 4=625, then 5=?",pattern|power|multiply|1|logical,"5 = 1. The pattern shows n = 5^n, so 1=5¹=5. But the question says 1=5, so by the same logic, 5=1 (it maps back to the first value). Answer: 1.",en
+88,Reasoning,easy,"Which number should replace the question mark: 8, 27, 64, 125, ?",cube|pattern|216|6|number,"216. The pattern is cubes: 2³=8, 3³=27, 4³=64, 5³=125, 6³=216.",en
+89,Reasoning,hard,There are 5 houses in a row. The red house is to the left of the blue house. The green house is between the red and yellow houses. The white house is at the right end. What is the order?,order|houses|logic|arrangement|color,"From left to right: Yellow, Green, Red, Blue, White. Green is between Red and Yellow, Red is left of Blue, and White is at the right end.",en
+90,Reasoning,medium,A is B's father. C is A's sister. D is C's son. What is D's relation to B?,relation|cousin|family|father|sister|son,"D is B's cousin. A is B's father, C is A's sister (B's aunt), and D is C's son, making D and B cousins.",en
+91,English,easy,Choose the correct word: The soldiers showed great ___ (courage/courageous) in battle.,courage|noun|adjective|form|correct,"Courage is correct. A noun is required after the adjective 'great', and 'courage' is a noun while 'courageous' is an adjective.",en
+92,English,easy,Identify the error: He don't know the answer.,does not|don't|subject verb|agreement|error,The error is 'don't'. The correct form is 'He doesn't know the answer.' Third person singular subjects (he/she/it) require 'doesn't' instead of 'don't'.,en
+93,English,medium,What is the passive voice of: The commander issued the orders?,passive|active|voice|were issued|by,Passive voice: The orders were issued by the commander.,en
+94,English,medium,Use the word 'integrity' in a meaningful sentence.,integrity|honesty|moral|character|sentence,"Example: A military officer must uphold the highest standards of integrity, as the nation's trust depends on their moral character.",en
+95,English,easy,What is the synonym of 'valor'?,valor|bravery|courage|synonym|heroism,"Synonyms of valor include bravery, courage, heroism, gallantry, and fearlessness.",en
+96,English,hard,"Write a précis of: The Indian Armed Forces play a vital role not only in defending the nation's borders but also in providing humanitarian assistance during natural disasters. Their dedication to duty, discipline, and selfless service makes them one of the most respected institutions in India.",précis|summary|concise|army|defence|humanitarian,"The Indian Armed Forces defend national borders and provide humanitarian disaster relief. Their dedication, discipline, and selfless service make them among India's most respected institutions.",en
+97,English,medium,What is the antonym of 'cowardice'?,antonym|cowardice|bravery|courage|opposite,"The antonym of cowardice is bravery (also: courage, valor, gallantry, fearlessness).",en
+98,English,easy,Fill in the blank: Neither the captain ___ the soldiers were present. (nor/or),neither nor|conjunction|correlative|grammar,Neither the captain NOR the soldiers were present. 'Neither...nor' is a correlative conjunction pair.,en
+99,English,hard,Explain the difference between 'affect' and 'effect'.,affect|effect|verb|noun|influence|result,"'Affect' is primarily a verb meaning to influence (e.g., The rain affected the mission). 'Effect' is primarily a noun meaning a result (e.g., The effect of training was visible). 'Effect' can also be a verb meaning to bring about (e.g., effect change).",en
+100,English,medium,"Convert to indirect speech: The officer said, 'Report at 0600 hours tomorrow.'",indirect|reported|speech|told|ordered,Indirect speech: The officer ordered to report at 0600 hours the next day.,en
+101,English,easy,What is the plural of 'analysis'?,plural|analyses|analysis|irregular|noun,The plural of 'analysis' is 'analyses'. It follows the Greek/Latin pluralization pattern.,en
+102,English,hard,What is a dangling modifier? Give an example.,dangling|modifier|grammatical|error|subject,"A dangling modifier is a phrase that does not clearly modify the intended word. Example (incorrect): 'Running to the base, the rain started.' (Who was running?) Correct: 'Running to the base, the soldier got caught in the rain.'",en
+103,English,medium,Choose correctly: The team ___ (has/have) won the championship.,subject verb|agreement|team|collective|singular,'Has' is correct. 'Team' is a collective noun typically treated as singular: 'The team has won the championship.',en
+104,English,medium,What does the idiom 'burning the midnight oil' mean?,idiom|meaning|working late|studying|night,"The idiom 'burning the midnight oil' means working or studying late into the night, showing dedication and hard work.",en
+105,English,hard,Correct the sentence: Each of the soldiers have completed their training.,each|singular|has|his or her|agreement,Corrected: Each of the soldiers has completed his or her training. 'Each' is singular and requires 'has' and a singular pronoun.,en
+106,Personality Test,easy,Tell us about yourself and your family background.,family|background|education|values|upbringing,"A good answer covers family structure, parents' occupations, values instilled (discipline, honesty, service), educational background, and personal qualities shaped by upbringing. It should be concise, confident, and structured.",en
+107,Personality Test,easy,Why do you want to join the Armed Forces?,motivation|serve|nation|defence|passion|duty,"Strong answers demonstrate genuine patriotism, understanding of military life's challenges, family military tradition, inspiration from national events, and a sense of duty and service beyond personal gain.",en
+108,Personality Test,medium,Describe a situation where you demonstrated leadership.,leadership|team|challenge|initiative|result|decision,"A good answer follows the STAR method: Situation (context), Task (responsibility), Action (specific steps taken as leader), Result (positive outcome). It should show initiative, decision-making, and ability to motivate others.",en
+109,Personality Test,medium,How do you handle failure or setback?,failure|resilience|learning|bounce back|growth|improve,"Strong responses show emotional maturity by acknowledging failures without blame, describing specific lessons learned, explaining how they adapted their approach, and demonstrating resilience and growth mindset.",en
+110,Personality Test,hard,You are leading a patrol and encounter an unexpected enemy force. What would you do?,tactical|leadership|assess|cover|report|command,"A strong answer shows tactical thinking: assess the situation and enemy strength, ensure team takes cover, report to higher command, protect the team while gathering intelligence, make a decision based on rules of engagement, and maintain composure under pressure.",en
+111,Personality Test,easy,What are your strengths and weaknesses?,strength|weakness|self-awareness|honest|improve,Good answers are honest and self-aware. Strengths should be backed with examples. Weaknesses should be genuine (not disguised strengths) with evidence of working to improve them.,en
+112,Personality Test,medium,How would you handle a disagreement with a superior officer?,respect|disagreement|chain of command|communication|subordinate,"Strong answers show respect for the chain of command while demonstrating the courage to voice concerns through proper channels. The candidate should explain how they would present their perspective respectfully, but ultimately follow orders while maintaining trust.",en
+113,Personality Test,hard,A fellow soldier is breaking rules that could endanger the unit. How would you handle this?,ethics|duty|confrontation|report|safety|morality,"A mature answer shows balancing loyalty with duty: first approach the soldier privately, explain the danger, give them a chance to correct behavior. If the behavior continues, report to the superior as unit safety takes precedence over personal loyalty.",en
+114,Personality Test,easy,What motivates you to perform your best?,motivation|drive|excellence|purpose|goal,"Good answers mention intrinsic motivators: sense of duty, desire to excel, responsibility toward teammates, personal standards, and the goal of contributing to something larger than oneself.",en
+115,Personality Test,medium,Describe a time when you worked effectively in a team.,teamwork|collaboration|role|communication|goal|success,"Strong answers describe a specific team situation, the candidate's role, how they collaborated with others, resolved any conflicts, and the successful outcome achieved together.",en
+116,Personality Test,hard,You discover your commanding officer is involved in corruption. What do you do?,ethics|corruption|whistleblower|duty|integrity|report,"A mature answer prioritizes integrity and institutional duty. Steps include: documenting evidence carefully, reporting through proper channels to higher authority, using formal complaint mechanisms, understanding whistleblower protections, and accepting personal risk for the greater good.",en
+117,Personality Test,medium,How do you manage stress in high-pressure situations?,stress|pressure|calm|manage|technique|resilience,"Good answers describe specific techniques: controlled breathing, prioritizing tasks, staying focused on the objective, physical fitness maintaining mental resilience, drawing on training, and keeping perspective on what can be controlled.",en
+118,Personality Test,easy,What do you know about the NDA training curriculum?,nda|training|academic|physical|military|3 years,"NDA offers a 3-year training program combining academic education (BA/BSc degree), military training (drills, weapons, tactics), physical fitness, adventure activities, and character building, producing well-rounded officers.",en
+119,Personality Test,hard,"If you had to choose between saving one civilian or completing a critical mission, what would you choose?",dilemma|moral|mission|civilian|decision|ethical,"This tests moral reasoning. Strong answers acknowledge the difficulty, weigh the consequences (strategic importance of mission vs. sanctity of individual life), consider whether alternative solutions exist, and demonstrate the ability to make tough decisions while showing empathy.",en
+120,Personality Test,medium,Where do you see yourself in 10 years if selected for the Armed Forces?,career|vision|growth|service|leadership|rank,"Good answers show realistic career awareness: progressing through ranks, developing expertise in a specialization, commanding units, taking on greater responsibility, contributing to India's defence capabilities, and potentially qualifying for senior leadership or staff positions.",en
+121,Defence Knowledge,easy,What is the motto of the Indian Army?,motto|service before self|indian army,"The motto of the Indian Army is 'Service Before Self', reflecting the commitment to duty above personal interests.",en
+122,Defence Knowledge,easy,Name the three training academies for the Indian Armed Forces.,ima|nda|ina|afa|dehradun|khadakwasla|hyderabad,"The three main academies are NDA (Khadakwasla, Pune) for joint training, IMA (Dehradun) for Army officers, INA (Ezhimala) for Navy, and AFA (Hyderabad) for Air Force.",en
+123,Defence Knowledge,medium,What is the role of the Chief of Defence Staff (CDS) in India?,cds|integration|jointness|theatre command|bipin rawat,"The CDS is the permanent chairman of the Chiefs of Staff Committee, responsible for bringing jointness and integration among the three services, advising the government on military matters, and heading the Department of Military Affairs.",en
+124,Defence Knowledge,medium,Explain the rank structure of the Indian Army from Lieutenant to General.,lieutenant|captain|major|colonel|brigadier|general,The rank structure is: Lieutenant → Captain → Major → Lieutenant Colonel → Colonel → Brigadier → Major General → Lieutenant General → General. Each rank carries increasing levels of command responsibility.,en
+125,Defence Knowledge,hard,Discuss India's integrated theatre command concept and its strategic implications.,theatre command|integration|jointness|cds|reform|operational,"Integrated theatre commands aim to unify Army, Navy, and Air Force assets under single operational commanders for specific geographic/threat areas. This improves coordination, reduces redundancy, and enables faster decision-making in modern warfare, following models used by the US and China.",en
+126,Defence Knowledge,easy,What is the Indian Air Force's primary fighter aircraft?,sukhoi|su-30mki|rafale|tejas|fighter|iaf,"The IAF operates the Su-30MKI as its primary air superiority fighter, supplemented by Rafale omnirole jets, and the indigenous Tejas (LCA) light combat aircraft.",en
+127,Defence Knowledge,medium,Explain the concept of surgical strikes and India's use of this tactic.,surgical strike|precision|cross border|2016|uri|balakot,"Surgical strikes are precision military operations targeting specific threats while minimizing collateral damage. India conducted cross-border surgical strikes in September 2016 after the Uri attack and the Balakot airstrike in February 2019 against terrorist camps, demonstrating India's willingness to respond proactively.",en
+128,Defence Knowledge,hard,Analyze India's maritime doctrine and the concept of blue-water navy.,blue water|aircraft carrier|projection|indian ocean|maritime|dominance,"A blue-water navy can operate globally across deep oceans. India is developing this capability with aircraft carriers (INS Vikrant, INS Vikramaditya), nuclear submarines (INS Arihant class), and overseas base access. India's maritime doctrine focuses on Indian Ocean dominance, sea lane security, and power projection.",en
+129,Defence Knowledge,easy,What is CRPF and what role does it play?,crpf|paramilitary|internal security|central reserve police,"CRPF (Central Reserve Police Force) is India's largest paramilitary force, responsible for internal security, counter-insurgency operations, managing law and order, and assisting in disaster management.",en
+130,Defence Knowledge,medium,What is India's nuclear triad and why is it important?,nuclear triad|land|sea|air|deterrence|second strike,"India's nuclear triad consists of land-based missiles (Agni series), submarine-launched ballistic missiles (K-4, K-15 from Arihant-class submarines), and air-delivered nuclear weapons (Rafale, Su-30MKI). This ensures a credible second-strike capability, meaning India can retaliate even after absorbing a first nuclear strike.",en
+131,DRDO,easy,What is DRDO and when was it established?,drdo|1958|defence research|development|organization,DRDO (Defence Research and Development Organisation) was established in 1958 by merging the Technical Development Establishment and the Directorate of Technical Development and Production. It is India's premier defence R&D organization under the Ministry of Defence.,en
+132,DRDO,easy,Name three missile systems developed by DRDO.,agni|prithvi|akash|nag|brahmos|missile,"Major DRDO missiles include: Agni series (ballistic, 700-5000+ km range), Prithvi (short-range tactical), Akash (surface-to-air), Nag (anti-tank), and BrahMos (supersonic cruise, developed with Russia).",en
+133,DRDO,medium,Explain the Agni missile series and its strategic significance.,agni|ballistic|icbm|nuclear|range|strategic,"The Agni series includes: Agni-I (700km), Agni-II (2000km), Agni-III (3000km), Agni-IV (4000km), Agni-V (5000+ km ICBM). They form the backbone of India's land-based nuclear deterrent, capable of reaching any target in Asia and beyond.",en
+134,DRDO,medium,What is the Tejas Light Combat Aircraft and its significance?,tejas|lca|fighter|indigenous|hal|single engine,"Tejas (LCA) is India's indigenous single-engine multirole light combat aircraft developed by DRDO's ADA and manufactured by HAL. It demonstrates India's capability to design advanced fighter aircraft domestically, reducing dependence on imports.",en
+135,DRDO,hard,Discuss the DRDO's contribution to India's missile defence system.,bmd|pdr|aad|interceptor|anti ballistic|prithvi defence,"DRDO developed India's Ballistic Missile Defence system with two tiers: the Prithvi Defence Vehicle for exo-atmospheric interception and the Advanced Area Defence missile for endo-atmospheric interception. Successfully tested against target missiles, it aims to protect key installations from ballistic missile attacks.",en
+136,DRDO,easy,What is BrahMos missile?,brahmos|supersonic|cruise|russia|joint venture|mach 2.8,"BrahMos is a supersonic cruise missile jointly developed by India's DRDO and Russia's NPOM. It travels at Mach 2.8, has a range of 290-500 km, and can be launched from land, sea, air, and submarines, making it one of the fastest cruise missiles in the world.",en
+137,DRDO,medium,Explain DRDO's role in developing the Arjun Main Battle Tank.,arjun|mbt|tank|combat|indigenous|cvrde,"The Arjun MBT was developed by DRDO's CVRDE in Chennai. It features a 120mm rifled gun, composite armor, fire control system, and NBC protection. The Arjun Mk-1A variant includes 72 improvements over the original, demonstrating India's growing capability in armored vehicle development.",en
+138,DRDO,hard,Analyze the significance of the Agni-V ICBM for India's strategic deterrence.,agni-v|icbm|5000|canister|mirv|china|deterrence,"Agni-V is India's first ICBM with 5000+ km range, capable of reaching all of China and parts of Europe. Its canister-launched design enables rapid deployment, and potential MIRV capability (multiple warheads) enhances penetration against missile defences. It fundamentally reshapes India's strategic deterrent posture.",en
+139,DRDO,medium,What is the Kaveri engine project?,kaveri|engine|turbofan|aircraft|gtre|indigenous,"The Kaveri is an indigenous gas turbine engine developed by DRDO's GTRE for powering fighter aircraft. While not yet achieving full specifications for Tejas, the project has built critical turbine engine design expertise and its core technology is being adapted for other applications including unmanned combat aircraft.",en
+140,DRDO,hard,Discuss DRDO's contributions to electronic warfare and cyber defence.,electronic warfare|ew|radar|jammer|cyber|communication,"DRDO has developed electronic warfare suites for aircraft (Tarang RWR, Tempest ECM), naval EW systems, ground-based radar jammers, and communication intelligence systems. In cyber defence, DRDO's CAIR laboratory works on cryptography, network security, and cyber warfare capabilities essential for modern defence.",en
+141,Defence Knowledge,medium,What are the conditions of service for an NDA cadet?,nda|training|3 years|academic|military|physical,"NDA offers a 3-year training program. Cadets receive: academic education (BA/BSc through JNU), military training, physical conditioning, adventure activities, and leadership development. After NDA, cadets undergo 1 year at their respective service academy (IMA/INA/AFA).",en
+142,Defence Knowledge,hard,Explain India's Look East/Act East Policy and its defence implications.,act east|asean|indo pacific|southeast asia|defence cooperation,"India's Act East Policy (upgraded from Look East in 2014) strengthens strategic ties with ASEAN and East Asian nations. Defence implications include joint exercises (MALABAR, MILAN), arms exports, port access agreements, intelligence sharing, and building a coalition to maintain a rules-based order in the Indo-Pacific region.",en
+143,Defence Knowledge,easy,What is the Indian Navy's motto?,navy|motto|sham no varunah|sea|lord varuna,"The Indian Navy's motto is 'Sham No Varunah', meaning 'May the Lord of the Water be auspicious unto us', derived from the Rigveda.",en
+144,Defence Knowledge,medium,Explain the concept of Net-Centric Warfare and India's efforts.,net centric|network|information|c4isr|digital battlefield,"Net-Centric Warfare uses information technology to link sensors, decision-makers, and weapons systems into a unified network. India is developing this through projects like the Tactical Communication System (TCS), BMS (Battlefield Management System), and AFNET (Air Force Network) to create a digitally connected battlefield.",en
+145,Defence Knowledge,hard,Discuss India's defence manufacturing ecosystem under 'Make in India'.,make in india|defence corridor|private sector|fdi|ordnance|dpsu,"India's defence manufacturing push includes: two defence corridors (UP and Tamil Nadu), increasing FDI limit to 74%, corporatizing Ordnance Factory Board into 7 DPSUs, positive indigenization lists banning import of 400+ items, and encouraging private sector giants like Tata, L&T, and Adani in defence production.",en
+146,Personality Test,hard,You are posted in a remote border area with limited resources. Your team's morale is low. How would you boost it?,morale|leadership|remote|motivation|team|resources,"Strong answers show: understanding root causes of low morale, leading by example, creating small wins, rotating difficult duties fairly, organizing recreational activities, maintaining communication with families, recognizing individual efforts, and building unit cohesion through shared purpose.",en
+147,Personality Test,hard,Your unit receives intelligence about a potential infiltration. How do you prepare your team?,intelligence|infiltration|preparation|alert|patrol|defence,"Good responses demonstrate: verifying intelligence, alerting higher command, briefing the team on threat assessment, increasing surveillance and patrols, checking equipment readiness, assigning sectors, establishing communication protocols, and maintaining calm while ensuring combat readiness.",en
+148,Personality Test,medium,What qualities make a good military leader?,leadership|integrity|courage|decisiveness|communication|empathy,"Key qualities include: integrity, physical and moral courage, decisiveness under pressure, effective communication, empathy for subordinates, tactical competence, leading by example, adaptability, and selfless service. A good leader inspires trust and brings out the best in their team.",en
+149,Personality Test,medium,How do you handle pressure during examinations or competitions?,pressure|exam|preparation|time management|focus|calm,"Strong answers describe systematic preparation strategies, time management techniques, staying focused on the task at hand, maintaining physical fitness for mental clarity, positive self-talk, and drawing confidence from thorough preparation.",en
+150,Personality Test,hard,A natural disaster hits your area while you are on leave. What do you do as a defence aspirant?,disaster|duty|civilian|rescue|initiative|volunteer,"Mature answers show initiative: immediately assess the situation, organize available help, assist in rescue and evacuation, coordinate with local authorities, use any first-aid training, help maintain order, and demonstrate the service ethos expected of a defence professional even while off duty.",en
+151,Current Affairs,medium,What is the INS Vikrant and its significance for India?,ins vikrant|aircraft carrier|indigenous|warship|navy,"INS Vikrant (IAC-1) is India's first indigenously built aircraft carrier, commissioned in 2022. At 45,000 tonnes, it makes India one of only a few nations capable of designing and building aircraft carriers, boosting India's blue-water naval capability and strategic power projection.",en
+152,Current Affairs,hard,Discuss the impact of the Abraham Accords on India's Middle East diplomacy.,abraham accords|israel|uae|bahrain|middle east|diplomacy|india,"The Abraham Accords normalizing Israel's relations with UAE, Bahrain, and others created new diplomatic space for India. India now engages more openly with Israel on defence and technology while maintaining its traditional ties with Arab nations. The I2U2 grouping (India, Israel, UAE, US) exemplifies this new dynamic.",en
+153,Current Affairs,medium,What is the importance of the SCO for India?,sco|shanghai|cooperation|india|china|russia|central asia,"The Shanghai Cooperation Organisation gives India diplomatic access to Central Asian nations, a platform for engaging China and Russia on security issues, counter-terrorism cooperation, and economic connectivity. India hosted the SCO Summit in 2023.",en
+154,Current Affairs,hard,Analyze India's response to the Chinese Belt and Road Initiative.,bri|belt road|china|cpec|india|opposition|connectivity,"India opposes BRI, particularly CPEC (China-Pakistan Economic Corridor) which passes through Pakistan-occupied Kashmir. India counters with alternative connectivity initiatives: International North-South Transport Corridor, India-Middle East-Europe Economic Corridor (IMEC), and partnerships under the Indo-Pacific framework.",en
+155,Current Affairs,medium,What is the Defence Acquisition Procedure (DAP) 2020?,dap|acquisition|buy indian|make|procurement|defence,"DAP 2020 prioritizes indigenous manufacturing with categories like Buy (Indian-IDDM), Buy (Indian), Buy and Make (Indian). It simplified procurement, reduced timelines, promoted innovation through iDEX, and created new categories for leasing and software procurement to modernize India's defence acquisition.",en
+156,Science,hard,Explain the concept of hypersonic missiles and their strategic implications.,hypersonic|mach 5|missile|glide vehicle|defence|intercept,"Hypersonic missiles travel at Mach 5+ and come in two types: Hypersonic Glide Vehicles (launched by rockets, glide unpredictably) and Hypersonic Cruise Missiles (powered by scramjet engines). Their speed, maneuverability, and low-altitude flight make them nearly impossible to intercept, potentially rendering current missile defences obsolete.",en
+157,Science,medium,What is the difference between a satellite and a space station?,satellite|space station|orbit|iss|crew|unmanned,"A satellite is typically an unmanned object orbiting Earth for communication, navigation, or observation. A space station (like ISS) is a large habitable structure in orbit where astronauts live and conduct research. Satellites are usually smaller and purpose-built, while space stations are modular and support human habitation.",en
+158,Science,medium,Explain how night vision goggles work.,night vision|infrared|image intensifier|photon|green|amplify,"Night vision goggles work by collecting available ambient light (including near-infrared) through an objective lens, converting photons to electrons in a photocathode, amplifying them through a microchannel plate, then converting back to visible light on a phosphor screen. The green display is used because human eyes can distinguish more shades of green.",en
+159,Geography,hard,Discuss the strategic significance of the Strait of Hormuz for India.,hormuz|oil|iran|persian gulf|energy|chokepoint,"The Strait of Hormuz between Iran and Oman controls access to the Persian Gulf, through which 20% of global oil passes. India imports ~60% of its oil from Gulf nations through this strait. Any disruption would severely impact India's energy security, making it a critical strategic interest.",en
+160,Geography,medium,Explain the McMahon Line and its significance in India-China relations.,mcmahon|line|arunachal|tibet|british|simla|1914|boundary,"The McMahon Line, drawn at the 1914 Simla Convention between British India and Tibet, marks the boundary between India and China in the eastern sector. China does not recognize it, claiming Arunachal Pradesh as 'South Tibet'. It remains a major source of border disputes.",en
+161,DRDO,medium,What is the Rustom drone program developed by DRDO?,rustom|drone|uav|male|surveillance|tapas,"The Rustom/TAPAS (Tactical Airborne Platform for Aerial Surveillance) is DRDO's indigenous Medium Altitude Long Endurance (MALE) UAV program. It aims to provide the armed forces with a domestic alternative to imported drones like the Israeli Heron, capable of 18+ hours endurance for intelligence and surveillance.",en
+162,DRDO,hard,Explain DRDO's development of the Advanced Towed Artillery Gun System (ATAGS).,atags|artillery|155mm|gun|range|howitzer,"ATAGS is a 155mm/52-calibre towed howitzer developed by DRDO with a world-record range of 48 km. It features all-electric drive, high mobility, automated ammunition handling, burst fire capability, and advanced fire control. It demonstrates India's ability to develop world-class artillery systems.",en
+163,Defence Knowledge,medium,What is the Combined Commanders Conference?,combined commanders|conference|military|briefing|strategy,"The Combined Commanders Conference is the Indian military's highest-level leadership meeting, presided over by the Prime Minister and attended by the CDS, service chiefs, theatre commanders, and senior officials. It reviews defence preparedness, strategic challenges, and modernization priorities.",en
+164,Defence Knowledge,hard,Discuss India's experience and contribution to UN Peacekeeping missions.,unpko|peacekeeping|un|congo|korea|contributions|blue helmet,"India is among the largest contributors to UN Peacekeeping, having deployed over 275,000 troops across 49 missions since 1950. India participated in Korean War, Congo, and currently serves in Lebanon, South Sudan, and others. Over 175 Indian peacekeepers have made the supreme sacrifice.",en
+165,Reasoning,hard,A military convoy must cross a bridge that can hold only 2 vehicles at a time. There are 8 vehicles. What is the minimum number of crossings needed?,bridge|crossing|minimum|vehicles|logic|4,"Minimum 4 crossings are needed. Each crossing takes 2 vehicles across: Crossing 1 (vehicles 1,2), Crossing 2 (vehicles 3,4), Crossing 3 (vehicles 5,6), Crossing 4 (vehicles 7,8). The answer is 8÷2 = 4 crossings.",en
+166,Reasoning,medium,"In a code language, ARMY is written as BSNZ. How would NAVY be written?",code|cipher|shift|pattern|obwz,"Each letter is shifted by +1 in the alphabet: A→B, R→S, M→N, Y→Z. So NAVY = O(N+1), B(A+1), W(V+1), Z(Y+1) = OBWZ.",en
+167,General Knowledge,medium,What is the significance of the Pokhran nuclear tests?,pokhran|nuclear|1974|1998|smiling buddha|shakti|test,"India conducted nuclear tests at Pokhran, Rajasthan: Pokhran-I (Smiling Buddha) in 1974 was a peaceful nuclear explosion. Pokhran-II (Operation Shakti) in 1998 included 5 tests, declaring India a nuclear weapons state and establishing its deterrence capability.",en
+168,General Knowledge,hard,Explain the Kargil War of 1999 and its strategic lessons.,kargil|1999|pakistan|infiltration|operation vijay|mountain warfare,"The Kargil War occurred when Pakistan-backed infiltrators occupied strategic heights along the LoC in 1999. India launched Operation Vijay to recapture them. Key lessons: importance of constant border surveillance, mountain warfare capability, air power support at high altitudes, and intelligence preparedness.",en
+169,English,hard,Write a brief paragraph on the topic: Should military service be made compulsory in India?,compulsory|military|service|conscription|patriotism|voluntary,"A well-structured answer discusses both sides: arguments for (national unity, discipline, defence preparedness, patriotism) and against (economic impact, personal freedom, existing volunteer system's effectiveness, quality vs quantity). It should arrive at a reasoned conclusion with supporting evidence.",en
+170,English,medium,What is the difference between 'principal' and 'principle'?,principal|principle|head|rule|noun|adjective,"Principal (noun/adjective) means the head of an institution or primary/main (e.g., principal of school, principal reason). Principle (noun) means a fundamental truth, law, or ethical standard (e.g., principles of democracy, a man of principle).",en
+171,DRDO,easy,What does DRDO's motto 'Strength's Origin is in Science' signify?,motto|balasya mulam vigyanam|science|strength|knowledge,"DRDO's motto 'Balasya Mulam Vigyanam' (Strength's Origin is in Science) signifies that a nation's military strength derives from scientific research and technological advancement, not just numerical strength.",en
+172,DRDO,medium,Explain the significance of DRDO's Man Portable Anti-Tank Guided Missile (MPATGM).,mpatgm|anti tank|infantry|fire forget|missile|portable,"MPATGM is a third-generation fire-and-forget anti-tank missile designed for infantry use. Weighing under 15 kg with infrared imaging seeker, it allows soldiers to fire and take cover immediately. It reduces dependence on imported systems like Javelin and Spike.",en
+173,Defence Knowledge,easy,What is the INS Arihant and why is it significant?,arihant|submarine|nuclear|ssbn|ballistic|triad,"INS Arihant is India's first indigenous nuclear-powered ballistic missile submarine (SSBN). It completes India's nuclear triad by providing underwater launch capability, ensuring a credible second-strike deterrent even if land and air-based nuclear assets are destroyed.",en
+174,Science,hard,Explain the concept of directed energy weapons and their potential military applications.,directed energy|laser|microwave|weapon|beam|defence,"Directed energy weapons use concentrated electromagnetic energy (lasers, microwaves, particle beams) to damage targets. Military applications include: anti-drone systems, missile interception, disabling enemy electronics, and close-in weapon defence. DRDO is developing a 100kW anti-drone laser system.",en
+175,Geography,medium,What is the Siliguri Corridor and why is it called Chicken's Neck?,siliguri|corridor|chicken neck|northeast|strategic|narrow,"The Siliguri Corridor is a narrow strip of land (22 km wide) connecting India's northeastern states to the mainland. Called 'Chicken's Neck', it is strategically vulnerable as it is flanked by Nepal, Bhutan, and Bangladesh, making it a critical security concern.",en
+176,Current Affairs,medium,What is the AMRIT initiative by DRDO?,amrit|drdo|water purification|technology|arsenic|fluoride,"AMRIT (Arsenic and Metal Removal by Indian Technology) is a DRDO-developed water purification technology that removes arsenic and heavy metals from drinking water. It demonstrates DRDO's dual-use technology capability, applying defence research to civilian welfare.",en
+177,Personality Test,medium,You notice a senior officer treating a junior unfairly. What would you do?,fairness|senior|junior|ethics|chain of command|intervention,"A balanced answer shows moral courage while respecting the chain of command: privately approach the senior officer respectfully to share observations, support the junior by ensuring they know proper grievance mechanisms, and if behavior continues, escalate through proper channels without creating unnecessary conflict.",en
+178,Personality Test,hard,"During a mission, you realize the orders from your superior will lead to unnecessary casualties. How do you respond?",orders|casualties|ethics|mission|dilemma|duty,"This tests moral reasoning under command hierarchy. Strong answers: voice concerns respectfully to the superior with tactical reasoning, propose alternative approaches, follow lawful orders while documenting concerns, escalate only if orders are clearly unlawful, and prioritize both mission success and troop safety.",en
+179,Mathematics,hard,A military patrol covers 12 km in 3 hours against the wind and returns in 2 hours with the wind. Find the speed of the patrol and wind.,speed|wind|distance|patrol|2|6,Speed against wind = 12/3 = 4 km/h. Speed with wind = 12/2 = 6 km/h. Patrol speed = (4+6)/2 = 5 km/h. Wind speed = (6-4)/2 = 1 km/h.,en
+180,Mathematics,medium,"If a communication tower 50m tall casts a shadow of 50m, what is the angle of elevation of the sun?",angle|elevation|tower|shadow|45|trigonometry,tan(θ) = height/shadow = 50/50 = 1. Therefore θ = tan⁻¹(1) = 45°.,en
+181,Current Affairs,easy,What is the Vande Bharat Express?,vande bharat|train|semi high speed|indigenous|railway,"Vande Bharat Express is India's indigenous semi-high-speed train capable of 160 km/h. Manufactured by ICF Chennai, it features advanced safety systems, comfortable interiors, and represents India's growing self-reliance in railway technology.",en
+182,Defence Knowledge,medium,Explain the concept of asymmetric warfare with examples.,asymmetric|guerrilla|conventional|terrorism|insurgency|weaker,"Asymmetric warfare involves conflict between forces of unequal military capability, where the weaker side uses unconventional tactics. Examples: guerrilla warfare in Vietnam, IEDs in Afghanistan, terror attacks, cyber attacks. India faces asymmetric threats primarily from cross-border terrorism and insurgency.",en
+183,Science,medium,What are the different types of military satellites?,satellite|reconnaissance|communication|navigation|early warning,"Military satellites serve various functions: reconnaissance (imagery intelligence), communication (secure data/voice links), navigation (GPS-like positioning), electronic intelligence (signals interception), early warning (missile launch detection), and weather observation for operational planning.",en
+184,DRDO,hard,Discuss DRDO's development of India's anti-satellite (ASAT) capability.,asat|mission shakti|satellite|space|2019|debris,"In Mission Shakti (March 2019), DRDO successfully tested an anti-satellite missile, destroying a live Indian satellite at 300 km altitude. This made India the 4th nation with demonstrated ASAT capability. The low-altitude test minimized space debris, demonstrating responsible space weapon testing.",en
+185,Defence Knowledge,easy,What is NCC and how does it contribute to national defence?,ncc|national cadet corps|youth|training|military,"The National Cadet Corps (NCC) is the world's largest uniformed youth organization. It provides military training to school and college students across Army, Navy, and Air Force wings, fostering patriotism, discipline, and creating a pool of trained youth for national defence needs.",en
+186,Geography,hard,Analyze the strategic importance of the Indian Ocean for India's security.,indian ocean|trade|energy|chokepoint|dominance|maritime|china,"The Indian Ocean is critical for India's security: 90% of India's trade by volume, critical energy supply routes, key chokepoints (Hormuz, Malacca, Bab-el-Mandeb). India's geographical position provides natural advantage, countered by China's String of Pearls strategy. India responds through naval modernization, island development, and partnerships.",en
+187,General Knowledge,hard,Explain the concept of Cold Start doctrine in Indian military strategy.,cold start|proactive|strategy|pakistan|rapid|mobilization,"Cold Start is India's military doctrine for rapid mobilization of integrated battle groups (IBGs) to launch quick, limited offensives into Pakistan before the international community can intervene. It aims for shallow territorial gains as punitive action, staying below Pakistan's nuclear threshold.",en
+188,Reasoning,hard,"A military base has 3 layers of security. If the probability of breaching each layer independently is 0.2, what is the probability that all 3 layers are breached?",probability|independent|layers|security|0.008,"Since layers are independent, P(all breached) = 0.2 × 0.2 × 0.2 = 0.008 or 0.8%. This demonstrates why multi-layered security is effective.",en
+189,DRDO,medium,What is the Pinaka Multi-Barrel Rocket Launcher system?,pinaka|rocket|launcher|mbrl|artillery|range,"Pinaka is an indigenous multiple launch rocket system developed by DRDO for the Indian Army. It can fire 12 rockets in 44 seconds across 37-75 km range. The enhanced version has guided rockets with improved accuracy, providing devastating area saturation fire support.",en
+190,Defence Knowledge,medium,"What is the difference between a frigate, destroyer, and aircraft carrier?",frigate|destroyer|carrier|warship|navy|tonnage,"A frigate (3000-5000 tonnes) handles escort and anti-submarine warfare. A destroyer (6000-10000 tonnes) is larger with more weapons for multi-role combat. An aircraft carrier (40000+ tonnes) is the largest, serving as a mobile airbase carrying fighter jets and helicopters for power projection.",en
+191,Personality Test,medium,What book has influenced you the most and why?,book|influence|reading|learning|inspiration|values,"This assesses intellectual curiosity and values. Strong answers name a specific book, explain what they learned from it, how it changed their thinking or behavior, and connect those lessons to their aspiration for military service.",en
+192,Current Affairs,medium,What is the significance of the India-France strategic partnership in defence?,france|rafale|scorpene|submarine|strategic|partnership,"The India-France defence partnership includes: Rafale fighter jets, Scorpene-class submarine technology transfer, joint exercises (Varuna, Garuda), space cooperation, and nuclear technology. France supports India's UNSC permanent membership bid and shares India's Indo-Pacific vision.",en
+193,English,medium,Explain the meaning of the phrase: The pen is mightier than the sword.,pen|sword|writing|power|ideas|communication,"This phrase means that written words, ideas, and diplomacy are more powerful and enduring than military force or violence. Ideas spread through writing can inspire movements, change laws, and shape civilizations in ways that physical force cannot sustain.",en
+194,Science,easy,What is the SI unit of force?,newton|force|si unit|kg|acceleration,The SI unit of force is the Newton (N). One Newton is the force required to accelerate a mass of 1 kilogram at 1 metre per second squared (1 N = 1 kg·m/s²).,en
+195,Mathematics,easy,"If a soldier runs 100 meters in 12 seconds, what is his speed in km/h?",speed|convert|100m|12s|30|km per hour,Speed = 100/12 m/s = 8.33 m/s. Converting to km/h: 8.33 × 3.6 = 30 km/h.,en
+196,General Knowledge,easy,Who wrote the Indian national anthem?,rabindranath tagore|jana gana mana|national anthem|1911,"Rabindranath Tagore wrote 'Jana Gana Mana', which was adopted as India's national anthem on 24 January 1950. It was first sung at the Calcutta session of the Indian National Congress in 1911.",en
+197,Geography,easy,Name the largest state of India by area.,rajasthan|largest|state|area|342239,"Rajasthan is the largest state of India by area, covering approximately 342,239 square kilometres, located in northwestern India.",en
+198,Reasoning,easy,"If all soldiers are disciplined and Ram is a soldier, what can we conclude?",logic|deduction|soldier|disciplined|syllogism,We can conclude that Ram is disciplined. This is a straightforward deductive syllogism: All soldiers are disciplined (major premise) + Ram is a soldier (minor premise) = Ram is disciplined (conclusion).,en
+199,DRDO,easy,What is the Astra missile?,astra|beyond visual range|bvr|air to air|missile|drdo,"Astra is India's first indigenous beyond-visual-range (BVR) air-to-air missile developed by DRDO. It has a range of 110+ km and is designed for use on the Su-30MKI, Tejas, and MiG-29 fighters, reducing India's dependence on imported air combat missiles.",en
+200,Defence Knowledge,easy,What oath does an Indian military officer take during commissioning?,oath|commissioning|allegiance|constitution|india|serve,"Indian military officers take an oath of allegiance to the Constitution of India, swearing to serve the nation faithfully, uphold the honour of the service, and defend India against all enemies, placing duty above personal interests.",en
+201,DRDO,medium,Explain DRDO's Smart Anti-Airfield Weapon (SAAW).,saaw|anti airfield|glide bomb|precision|runway|drdo,"SAAW is a precision-guided anti-airfield weapon developed by DRDO, designed to destroy enemy runways, bunkers, and radar installations from a stand-off range of 100+ km. It uses GPS/INS guidance and can be launched from aircraft at high altitude.",en
+202,Defence Knowledge,hard,Discuss the challenges of mountain warfare and India's preparedness.,mountain warfare|high altitude|acclimatization|logistics|siachen|ladakh,"Mountain warfare challenges include: extreme altitude (hypoxia, frostbite), difficult logistics (narrow supply lines), limited mobility, severe weather, and acclimatization needs. India's preparedness includes specialized mountain divisions, HAWS (High Altitude Warfare School), infrastructure development (road/tunnel building in border areas), and advanced cold-weather equipment.",en
+203,Current Affairs,hard,What is the India-Middle East-Europe Economic Corridor (IMEC)?,imec|corridor|india|middle east|europe|g20|connectivity,"IMEC, announced at the 2023 G20 Summit, is a multimodal transport corridor connecting India to Europe via the Middle East (UAE, Saudi Arabia, Jordan, Israel). It aims to boost trade, energy connectivity (hydrogen pipeline), and digital links, serving as an alternative to China's Belt and Road Initiative.",en
+204,Personality Test,easy,What are your hobbies and how do they help you?,hobbies|sports|reading|fitness|development|skills,"Good answers connect hobbies to personal development: physical fitness through sports, discipline through martial arts, strategic thinking through chess, empathy through reading, teamwork through team sports. They show how hobbies contribute to qualities needed in military service.",en
+205,Science,easy,What is the boiling point of water at sea level?,boiling point|100|celsius|water|sea level|pressure,"The boiling point of water at sea level (1 atmosphere standard pressure) is 100 degrees Celsius (212 degrees Fahrenheit). At higher altitudes, the boiling point decreases due to lower atmospheric pressure.",en
+206,Geography,medium,What is the Palk Strait and which two countries does it separate?,palk|strait|india|sri lanka|tamil nadu|narrow,"The Palk Strait is a narrow strip of ocean separating Tamil Nadu (India) from northern Sri Lanka. It is approximately 53-80 km wide and is significant for fishing, maritime boundary disputes, and historical connectivity between the two nations.",en
+207,Reasoning,medium,"A soldier faces north. He turns 90 degrees clockwise, then 180 degrees anticlockwise, then 45 degrees clockwise. Which direction does he face?",direction|rotation|north|clockwise|northwest|compass,Starting North → 90° clockwise = East → 180° anticlockwise = West → 45° clockwise = Northwest. He faces Northwest.,en
+208,English,easy,What is the meaning of the word 'valiant'?,valiant|brave|courageous|bold|heroic|meaning,"Valiant means showing courage, bravery, or determination in the face of danger. Synonyms include brave, courageous, heroic, bold, and fearless. Example: The valiant soldier defended his post against overwhelming odds.",en
+209,Mathematics,medium,A rectangular army camp is 200m long and 150m wide. Find its perimeter and area.,perimeter|area|rectangle|200|150|700|30000,"Perimeter = 2(length + width) = 2(200 + 150) = 2 × 350 = 700 metres. Area = length × width = 200 × 150 = 30,000 square metres.",en
+210,General Knowledge,medium,What is the significance of the Simla Agreement of 1972?,simla|agreement|1972|bhutto|indira|loc|bilateral,"The Simla Agreement signed between Indira Gandhi and Zulfikar Ali Bhutto after the 1971 war established that India-Pakistan disputes would be resolved bilaterally, not through third-party mediation. It also converted the ceasefire line in Kashmir into the Line of Control (LoC).",en
+211,Defence Knowledge,medium,What is the Border Roads Organisation (BRO) and its strategic role?,bro|border roads|infrastructure|roads|bridges|tunnels|strategic,"BRO develops and maintains road networks along India's borders. It has built critical infrastructure including the Atal Tunnel (Rohtang), Zoji La tunnel, and strategic roads in Ladakh, Arunachal Pradesh, and Sikkim, enabling rapid military deployment and supporting border communities.",en
+212,DRDO,medium,What is the Advanced Medium Combat Aircraft (AMCA) project?,amca|stealth|fifth generation|fighter|indigenous|drdo|ada,"AMCA is India's ambitious fifth-generation stealth fighter aircraft program, being developed by DRDO's Aeronautical Development Agency. It will feature stealth characteristics, internal weapons bay, supercruise capability, and advanced sensors, aiming to make India one of the few nations with indigenous 5th-gen fighter technology.",en
+213,Current Affairs,easy,What is UPI and how has it changed digital payments in India?,upi|digital|payment|india|bhim|phonepe|banking,"UPI (Unified Payments Interface) enables instant real-time bank transfers via mobile phones. It has revolutionized digital payments in India with billions of monthly transactions, reduced cash dependency, and has been adopted or considered by several countries.",en
+214,Personality Test,medium,How do you stay physically fit? Describe your fitness routine.,fitness|exercise|running|physical|training|health|routine,"Good answers demonstrate commitment to physical fitness relevant to military service: regular exercise routine, specific activities (running, swimming, sports, gym), consistency, measurable goals, and understanding of how fitness supports mental toughness and operational readiness.",en
+215,Science,medium,What is fiber optics and how is it used in defence communications?,fiber optic|light|communication|bandwidth|secure|cable,"Fiber optics transmit data as light pulses through glass or plastic fibers. In defence, they provide: high-bandwidth secure communications resistant to electromagnetic interference and interception, submarine communication cables, and tactical field communication systems.",en
+216,Geography,easy,Which is the largest desert in the world?,sahara|desert|africa|largest|9 million,"The Sahara Desert in North Africa is the world's largest hot desert, spanning approximately 9.2 million square kilometres across 11 countries.",en
+217,Reasoning,easy,"Complete: 1, 4, 9, 16, 25, ?",squares|pattern|36|perfect square|sequence,"36. The pattern shows perfect squares: 1²=1, 2²=4, 3²=9, 4²=16, 5²=25, 6²=36.",en
+218,English,medium,"Rewrite in reported speech: The General said to the troops, 'You must be ready by dawn.'",reported|indirect|speech|general|troops|dawn,The General told the troops that they must be ready by dawn. (Or: The General ordered the troops to be ready by dawn.),en
+219,Mathematics,easy,What is the LCM of 6 and 8?,lcm|least common multiple|6|8|24,"LCM of 6 and 8: Multiples of 6: 6,12,18,24... Multiples of 8: 8,16,24... LCM = 24.",en
+220,Defence Knowledge,medium,What is the Integrated Guided Missile Development Programme (IGMDP)?,igmdp|missile|apj kalam|prithvi|agni|trishul|akash|nag,"IGMDP, led by Dr. APJ Abdul Kalam, was launched in 1983 to develop five indigenous missile systems: Prithvi (surface-to-surface), Agni (ballistic), Trishul (short-range SAM), Akash (medium-range SAM), and Nag (anti-tank). It established India's self-reliance in missile technology.",en
+221,DRDO,hard,Explain DRDO's development of the K-4 submarine-launched ballistic missile.,k4|slbm|submarine|ballistic|arihant|underwater|nuclear,"The K-4 is a submarine-launched ballistic missile with 3500 km range developed by DRDO for the Arihant-class nuclear submarines. It can carry nuclear warheads and is launched from underwater, forming a crucial component of India's second-strike nuclear capability.",en
+222,General Knowledge,easy,What is the Preamble of the Indian Constitution?,preamble|constitution|sovereign|socialist|secular|democratic|republic,"The Preamble declares India as a Sovereign, Socialist, Secular, Democratic Republic, promising justice, liberty, equality, and fraternity to all citizens. It reflects the fundamental values and guiding philosophy of the Constitution.",en
+223,Current Affairs,medium,What is the National Education Policy (NEP) 2020?,nep|education|policy|2020|5+3+3+4|multidisciplinary,"NEP 2020 restructures education with 5+3+3+4 schooling pattern, promotes multidisciplinary education, emphasizes mother tongue/regional language instruction, allows multi-entry/exit in higher education, establishes National Research Foundation, and aims to achieve 100% GER in higher education by 2035.",en
+224,Personality Test,hard,"If selected, how would you handle being posted far from your family for extended periods?",posting|family|separation|duty|emotional|resilience|cope,"Mature answers acknowledge the emotional challenge while demonstrating resilience: maintaining regular communication, trusting family to manage independently, staying focused on duty, building bonds with unit members, finding purpose in service, and understanding that sacrifice is inherent to military life.",en
+225,Defence Knowledge,easy,Name the current operational aircraft carriers of the Indian Navy.,vikrant|vikramaditya|aircraft carrier|navy|operational,"The Indian Navy operates two aircraft carriers: INS Vikramaditya (modified Kiev-class from Russia) and INS Vikrant (India's first indigenous aircraft carrier, commissioned in 2022).",en
+226,DRDO,medium,What is the Nirbhay cruise missile?,nirbhay|cruise|subsonic|long range|terrain|stealth|drdo,"Nirbhay is India's first indigenous long-range subsonic cruise missile developed by DRDO with a range of 800-1000 km. It features terrain-hugging flight capability, stealth characteristics, waypoint navigation, and can carry conventional and nuclear warheads, providing India with a strategic stand-off weapon.",en
+227,Science,hard,Explain the concept of electronic countermeasures (ECM) in modern warfare.,ecm|electronic|countermeasure|jamming|chaff|decoy|radar,"ECM are electronic techniques to neutralize enemy sensors. Types include: jamming (overpowering enemy radar with noise), chaff (metallic strips creating false radar returns), flares (infrared decoys against heat-seeking missiles), deceptive jamming (creating false targets), and DRFM (digital radio frequency memory) for advanced radar spoofing.",en
+228,Geography,medium,What are the Eastern and Western Ghats?,eastern ghats|western ghats|mountain|coast|peninsular|india,"The Western Ghats run 1600 km along India's western coast (Gujarat to Kerala), taller and less broken. The Eastern Ghats run along the eastern coast (Odisha to Tamil Nadu), lower and discontinuous, broken by major rivers. The Western Ghats are a UNESCO biodiversity hotspot.",en
+229,Reasoning,medium,"If a platoon of 30 soldiers needs 15 days of rations, and 10 more soldiers join, how long will the rations last?",rations|soldiers|proportion|inverse|days|11.25,Total rations = 30 × 15 = 450 soldier-days. With 40 soldiers: 450 ÷ 40 = 11.25 days. The rations will last approximately 11 days and 6 hours.,en
+230,English,hard,Write a short paragraph defending the statement: Discipline is the backbone of the Armed Forces.,discipline|backbone|army|order|training|obedience|cohesion,"A strong paragraph argues that discipline enables: following orders under fire, maintaining formation in chaos, building unit cohesion, ensuring weapon and equipment maintenance, upholding ethical standards, enabling complex operations requiring precise coordination, and creating the trust between soldiers that is essential for combat effectiveness.",en
+231,Mathematics,hard,"A submarine dives at an angle of 30 degrees to the surface. After traveling 200 metres along its path, how deep is it?",submarine|depth|angle|trigonometry|sin|100,Depth = distance × sin(angle) = 200 × sin(30°) = 200 × 0.5 = 100 metres.,en
+232,General Knowledge,medium,What was the Non-Aligned Movement and India's role in it?,nam|non aligned|nehru|cold war|neutral|third world,"The Non-Aligned Movement was founded by leaders including Jawaharlal Nehru during the Cold War, allowing developing nations to avoid alignment with either the US or Soviet bloc. India was a founding member and key leader, advocating for sovereignty, anti-colonialism, and peaceful coexistence.",en
+233,DRDO,hard,Discuss the challenges and achievements of India's Light Combat Helicopter (LCH) Prachand.,lch|prachand|helicopter|attack|hal|drdo|combat,"LCH Prachand is the world's lightest attack helicopter, developed by HAL with DRDO systems. Designed for high-altitude operations (unique capability), it can operate at 5000m altitude with weapons. Challenges included engine limitations at altitude, extended development timeline, and integration of indigenous weapons systems.",en
+234,Defence Knowledge,hard,Analyze the significance of the Rafale deal for India's air combat capability.,rafale|meteor|scalp|omnirole|air superiority|strategic,"The 36 Rafale jets significantly enhance IAF capabilities: Meteor BVR missile (longest-range air-to-air), SCALP cruise missile (deep strike), advanced AESA radar, electronic warfare suite, nuclear delivery capability, and aerial refueling. They address the critical shortfall in modern fighter aircraft inventory.",en
+235,Personality Test,hard,You are the only officer left after a surprise attack on your unit. How do you take charge?,command|crisis|leadership|attack|organize|casualties|communication,"Strong answers demonstrate crisis leadership: assess casualties and threats, secure the perimeter, establish communication with higher command, organize remaining troops by capability, provide first aid, assign defensive positions, maintain morale and calm, and make tactical decisions based on available information.",en
+236,Current Affairs,hard,Discuss the impact of artificial intelligence on future warfare.,ai|artificial intelligence|warfare|autonomous|drone|decision|cyber,"AI transforms warfare through: autonomous weapons systems, AI-powered surveillance and target recognition, predictive analytics for threat assessment, cyber warfare automation, logistics optimization, swarm drone technology, and enhanced decision-making speed. Ethical concerns include autonomous lethal decisions and AI arms race dynamics.",en
+237,Science,medium,What is the principle of jet propulsion?,jet|propulsion|newton|action|reaction|thrust|engine,"Jet propulsion works on Newton's Third Law: burning fuel creates high-pressure exhaust gases that exit the engine at high velocity backward, creating an equal and opposite forward thrust force. This principle powers jet aircraft, rockets, and missiles.",en
+238,Geography,hard,Discuss the strategic importance of the Andaman Sea for India.,andaman sea|malacca|strategic|naval|china|maritime|surveillance,"The Andaman Sea provides India proximity to the Malacca Strait, through which 25% of global trade passes. India's Andaman & Nicobar Command enables maritime domain awareness, anti-piracy operations, monitoring Chinese naval movements, and projecting power across the eastern Indian Ocean.",en
+239,Reasoning,hard,A message is encrypted by shifting each letter forward by the position number of that letter in the word. Decrypt: CIGBQ from a 5-letter word.,cipher|decrypt|variable shift|position|blend,"Position shifts: 1st letter back 1, 2nd back 2, 3rd back 3, 4th back 4, 5th back 5. C-1=B, I-2=G, G-3=D, B-4=X, Q-5=L → The answer requires working backwards from the cipher.",en
+240,Defence Knowledge,medium,What is the significance of Exercise Malabar?,malabar|naval exercise|quad|usa|japan|australia|interoperability,"Exercise Malabar is a multilateral naval exercise involving India, USA, Japan, and Australia (Quad nations). It enhances maritime interoperability, practices anti-submarine warfare, and demonstrates collective commitment to a free and open Indo-Pacific. It has evolved from bilateral India-US exercise to a key Quad military cooperation platform.",en
+241,General Knowledge,easy,भारत की राजधानी क्या है?,delhi|capital|new delhi|राजधानी,भारत की राजधानी नई दिल्ली है। यह 1911 में कलकत्ता से स्थानांतरित की गई थी।,hi
+242,General Knowledge,easy,भारत का राष्ट्रीय पशु कौन सा है?,tiger|बाघ|national animal|bengal,भारत का राष्ट्रीय पशु बंगाल टाइगर (रॉयल बंगाल टाइगर) है। इसे 1973 में प्रोजेक्ट टाइगर के तहत संरक्षित किया गया।,hi
+243,General Knowledge,medium,भारतीय संविधान में कितनी अनुसूचियाँ हैं?,schedules|12|अनुसूची|constitution,"भारतीय संविधान में 12 अनुसूचियाँ हैं जो विभिन्न विषयों जैसे राज्यों की सूची, शपथ के प्रारूप, भाषाओं आदि का विवरण देती हैं।",hi
+244,General Knowledge,hard,भारत के प्रथम प्रधानमंत्री कौन थे और उनकी विदेश नीति क्या थी?,nehru|नेहरू|panchsheel|non aligned|गुटनिरपेक्ष,जवाहरलाल नेहरू भारत के प्रथम प्रधानमंत्री थे। उनकी विदेश नीति पंचशील सिद्धांत और गुटनिरपेक्षता पर आधारित थी।,hi
+245,Defence Knowledge,easy,भारतीय सेना दिवस कब मनाया जाता है?,army day|15 january|सेना दिवस|cariappa,भारतीय सेना दिवस 15 जनवरी को मनाया जाता है। इस दिन 1949 में जनरल केएम करियप्पा ने पहले भारतीय सेना प्रमुख का पदभार संभाला था।,hi
+246,Defence Knowledge,medium,परमवीर चक्र क्या है और यह किसे दिया जाता है?,param vir chakra|gallantry|bravery|wartime|परमवीर,परमवीर चक्र भारत का सर्वोच्च सैन्य वीरता पुरस्कार है। यह युद्ध में असाधारण बहादुरी के लिए दिया जाता है। अब तक 21 सैनिकों को यह सम्मान मिला है।,hi
+247,Geography,easy,भारत में कुल कितने राज्य हैं?,28|states|राज्य|union territory|8,भारत में 28 राज्य और 8 केंद्र शासित प्रदेश हैं (2019 के पुनर्गठन के बाद)।,hi
+248,Geography,medium,गंगा नदी का उद्गम स्थल कहाँ है?,gangotri|गंगोत्री|glacier|gaumukh|उत्तराखंड,"गंगा नदी उत्तराखंड में गंगोत्री ग्लेशियर के गोमुख से निकलती है, जो समुद्र तल से लगभग 3,892 मीटर की ऊँचाई पर है।",hi
+249,Science,easy,प्रकाश संश्लेषण क्या है?,photosynthesis|प्रकाश|chlorophyll|oxygen|glucose,"प्रकाश संश्लेषण वह प्रक्रिया है जिसमें पौधे सूर्य के प्रकाश, कार्बन डाइऑक्साइड और पानी का उपयोग करके ग्लूकोज और ऑक्सीजन बनाते हैं।",hi
+250,Science,medium,ध्वनि की गति कितनी होती है?,speed of sound|343|ध्वनि|air|medium,वायु में ध्वनि की गति लगभग 343 मीटर प्रति सेकंड (20°C पर) होती है। यह माध्यम के तापमान और घनत्व पर निर्भर करती है।,hi
+251,Mathematics,easy,एक वर्ग का परिमाप 40 सेमी है। उसकी भुजा कितनी होगी?,perimeter|square|40|10|side,वर्ग का परिमाप = 4 × भुजा। 40 = 4 × भुजा। भुजा = 10 सेमी।,hi
+252,Reasoning,easy,"श्रृंखला पूरी करें: 5, 10, 20, 40, ?",series|double|80|pattern|गुणा,"प्रत्येक संख्या पिछली संख्या का दोगुना है: 5×2=10, 10×2=20, 20×2=40, 40×2=80। उत्तर: 80।",hi
+253,Personality Test,easy,आप सेना में क्यों जाना चाहते हैं?,army|motivation|देश सेवा|duty|patriotism,"एक अच्छा उत्तर देश सेवा की भावना, अनुशासन का महत्व, परिवार की सैन्य परंपरा, और राष्ट्र रक्षा के प्रति समर्पण को दर्शाता है।",hi
+254,English,easy,What is the meaning of the word 'resilience'?,resilience|recover|bounce back|tough|adaptability,"Resilience means the ability to recover quickly from difficulties or setbacks. It implies toughness, adaptability, and mental strength to withstand challenges.",en
+255,General Knowledge,medium,What is the Right to Information (RTI) Act and its significance?,rti|2005|transparency|government|accountability|information,"The RTI Act 2005 empowers citizens to request information from public authorities, promoting transparency and accountability in governance. It has become a powerful tool against corruption.",en
+256,General Knowledge,hard,Explain the Inter-Services Organizations Act 2023.,inter services|theatre|command|act|jointness|2023,"The Inter-Services Organizations Act 2023 empowers the Commander of theatre or inter-services commands to exercise control over personnel of all three services, enabling true jointness in military operations.",en
+257,Defence Knowledge,medium,What is Exercise Kavach and its purpose?,kavach|exercise|andaman|joint|tri service,"Exercise Kavach is a large-scale joint tri-service exercise conducted in the Andaman Sea and Bay of Bengal to validate operational readiness and interoperability among the Army, Navy, and Air Force.",en
+258,Defence Knowledge,hard,What is the Defence Planning Committee and its role?,dpc|planning|nsa|defence|strategy|procurement,"The Defence Planning Committee, chaired by the NSA, prepares national security strategy, international defence engagement strategy, capability development plans, and prioritizes defence procurement for India's armed forces.",en
+259,Current Affairs,medium,What is the PM Gati Shakti National Master Plan?,gati shakti|infrastructure|multimodal|connectivity|logistics,"PM Gati Shakti is a digital platform integrating 16 ministries to plan and coordinate infrastructure projects like roads, railways, airports, and ports. It aims to reduce logistics costs and boost economic growth.",en
+260,Current Affairs,hard,Discuss India's semiconductor manufacturing ambitions.,semiconductor|chip|fab|manufacturing|atmanirbhar|electronics,"India aims to establish semiconductor fabs through the India Semiconductor Mission with $10B+ investment. Companies like Micron and Tata are setting up plants. This is critical for defence electronics, AI hardware, and reducing dependence on Taiwan/China.",en
+261,Science,hard,What is quantum computing and its potential defence applications?,quantum|computing|qubit|encryption|defence|superposition,"Quantum computing uses qubits in superposition to process exponentially more data than classical computers. Defence applications include breaking enemy encryption, optimizing logistics, simulating complex weapons systems, and developing unbreakable quantum communication networks.",en
+262,Science,medium,What is the Coriolis effect and how does it impact weather?,coriolis|rotation|earth|wind|deflection|weather,"The Coriolis effect deflects moving objects (including wind and ocean currents) due to Earth's rotation — rightward in the Northern Hemisphere and leftward in the Southern. It influences cyclone rotation, trade winds, and ocean circulation patterns.",en
+263,Geography,hard,Discuss the strategic importance of the Suez Canal for India.,suez|canal|egypt|trade|europe|shipping|route,"The Suez Canal connects the Mediterranean to the Red Sea, shortening the Europe-Asia shipping route by 7,000+ km. About 12% of global trade passes through it. For India, it is the primary route for trade with Europe and the eastern Mediterranean.",en
+264,Geography,medium,What is the significance of the Karakoram Pass?,karakoram|pass|ladakh|china|5540m|aksai chin,"The Karakoram Pass at 5,540m connects Ladakh with Xinjiang (China). It is one of the highest passes in the world and holds strategic significance near the disputed Aksai Chin region.",en
+265,Mathematics,medium,"A patrol of 8 soldiers shares 96 bullets equally. If 4 more soldiers join, how many bullets does each get?",division|proportion|96|12|8|bullets,With 8 soldiers: 96 ÷ 8 = 12 bullets each. With 12 soldiers: 96 ÷ 12 = 8 bullets each.,en
+266,Mathematics,hard,Find the sum of all integers from 1 to 100.,sum|arithmetic|gauss|5050|formula|series,Sum = n(n+1)/2 = 100 × 101 / 2 = 5050. This formula was famously demonstrated by Carl Friedrich Gauss.,en
+267,Reasoning,medium,"If DEFENCE is coded as 4-5-6-5-14-3-5, what system is used?",code|alphabet|position|number|a=1,"Each letter is replaced by its position in the alphabet: D=4, E=5, F=6, E=5, N=14, C=3, E=5.",en
+268,Reasoning,hard,"A watch gains 5 minutes every hour. If set correctly at 12 noon, what time will it show when the actual time is 6 PM?",watch|gain|time|6:30|fast|clock,"In 6 hours, the watch gains 6 × 5 = 30 minutes. So when the actual time is 6:00 PM, the watch shows 6:30 PM.",en
+269,English,medium,What is the difference between 'stationary' and 'stationery'?,stationary|stationery|still|paper|homophone,"Stationary (with 'a') means not moving or still. Stationery (with 'e') refers to writing materials like paper, pens, and envelopes. They are homophones with different meanings.",en
+270,English,hard,Correct the error: Neither the officer nor the soldiers was ready for the inspection.,neither nor|plural|were|agreement|verb,"Corrected: Neither the officer nor the soldiers were ready. With 'neither...nor', the verb agrees with the nearer subject — 'soldiers' is plural, so 'were' is correct.",en
+271,Personality Test,medium,अगर आपके साथी परीक्षा में नकल कर रहे हैं तो आप क्या करेंगे?,cheating|ethics|integrity|नकल|honesty,"एक परिपक्व उत्तर: पहले साथी को समझाएंगे कि नकल गलत है। अगर वे नहीं मानते तो परीक्षक को सूचित करेंगे, क्योंकि ईमानदारी और अखंडता सेना के मूल मूल्य हैं।",hi
+272,Personality Test,hard,आपको एक ऐसे क्षेत्र में तैनात किया गया जहाँ स्थानीय लोग सेना के प्रति शत्रुतापूर्ण हैं। आप क्या करेंगे?,hostile|local|hearts minds|trust|community|civil,"मजबूत उत्तर: स्थानीय नेताओं से संवाद, सामुदायिक सहायता कार्यक्रम, चिकित्सा शिविर, विश्वास निर्माण, और संयम बनाए रखना। दिल जीतने की रणनीति सैन्य बल से अधिक प्रभावी है।",hi
+273,General Knowledge,easy,What is the national flower of India?,lotus|national flower|nelumbo|sacred,"The Lotus (Nelumbo nucifera) is the national flower of India. It symbolizes purity, beauty, and spiritual significance in Indian culture.",en
+274,General Knowledge,medium,Explain the concept of Emergency in the Indian Constitution.,emergency|article 352|356|360|president|national,"The Constitution provides for three types of Emergency: National Emergency (Art 352 — war/external aggression), State Emergency/President's Rule (Art 356 — constitutional machinery failure), Financial Emergency (Art 360). During emergency, fundamental rights can be suspended.",en
+275,Defence Knowledge,easy,What is the BSF and what is its role?,bsf|border security force|border|guarding|pakistan|bangladesh,"BSF (Border Security Force) is India's primary border guarding force, responsible for securing India's borders with Pakistan and Bangladesh. It also handles anti-infiltration, anti-smuggling, and counter-insurgency operations.",en
+276,Defence Knowledge,medium,What are the Special Forces of India?,para sf|marcos|garud|special forces|commando|nsg,"India's Special Forces include: Para SF (Army), MARCOS (Navy), Garud (Air Force), NSG (counter-terrorism), and COBRA (CRPF anti-Naxal). They are trained for unconventional warfare, hostage rescue, and surgical strikes.",en
+277,Current Affairs,easy,What is Aadhaar and how is it used?,aadhaar|12 digit|uidai|biometric|identity|unique,"Aadhaar is a 12-digit unique identity number issued by UIDAI based on biometric data (fingerprints, iris scan). It is used for identity verification, direct benefit transfers, banking, and government service delivery.",en
+278,Current Affairs,medium,What is the National Logistics Policy 2022?,logistics|policy|2022|cost|gdp|efficiency|pm,"The National Logistics Policy 2022 aims to reduce India's logistics cost from 13-14% to 8% of GDP through digital integration, multimodal transport, process simplification, and infrastructure development. It includes the ULIP digital platform.",en
+279,Science,easy,What is the chemical symbol for gold?,gold|au|aurum|element|precious|symbol,"The chemical symbol for gold is Au, derived from the Latin word 'Aurum'. Gold has atomic number 79 and is a precious metal known for its resistance to corrosion.",en
+280,Science,medium,Explain the concept of centripetal force with an example.,centripetal|circular|center|force|motion|satellite,"Centripetal force is the force that keeps an object moving in a circular path, directed toward the center of rotation. Example: gravity acts as centripetal force keeping satellites in orbit. Formula: F = mv²/r.",en
+281,Geography,easy,Which is the smallest state of India by area?,goa|smallest|state|area|3702,"Goa is the smallest state of India by area, covering approximately 3,702 square kilometres, located on the western coast.",en
+282,Geography,medium,What is the importance of the Sundarbans?,sundarbans|mangrove|bengal|tiger|delta|unesco|cyclone,"The Sundarbans is the world's largest mangrove forest at the Ganges-Brahmaputra delta. It is a UNESCO World Heritage site, home to Bengal tigers, acts as a natural barrier against cyclones, and is vital for coastal ecology.",en
+283,Mathematics,easy,What is 25% of 400?,percentage|25|400|100|calculate,25% of 400 = (25/100) × 400 = 100.,en
+284,Mathematics,medium,"Find the mean of: 12, 15, 18, 21, 24.",mean|average|sum|5|18|statistics,Mean = (12+15+18+21+24) ÷ 5 = 90 ÷ 5 = 18.,en
+285,Reasoning,easy,"Which is the odd one out: Apple, Mango, Potato, Banana?",odd one out|potato|vegetable|fruit|category,"Potato is the odd one out. Apple, Mango, and Banana are fruits, while Potato is a vegetable (tuber).",en
+286,Reasoning,medium,"If 5 workers can build a wall in 10 days, how many days will 10 workers take?",work|inverse proportion|days|workers|5,Workers and days are inversely proportional. 5 × 10 = 10 × x → x = 50/10 = 5 days.,en
+287,English,easy,"Give the past tense of: go, run, write.",past tense|went|ran|wrote|irregular|verb,"Go → Went, Run → Ran, Write → Wrote. These are irregular verbs that do not follow the standard -ed pattern.",en
+288,English,medium,Use 'despite' in a sentence related to military service.,despite|contrast|sentence|preposition|military,"Example: Despite facing extreme weather conditions, the soldiers completed their mission ahead of schedule, demonstrating unwavering determination.",en
+289,DRDO,easy,What is the NAG missile?,nag|anti tank|missile|fire forget|third generation,NAG (meaning Cobra) is a third-generation fire-and-forget anti-tank guided missile developed by DRDO. It uses infrared imaging seeker and has a range of 4-7 km.,en
+290,DRDO,medium,What is DRDO's contribution to soldier protection systems?,soldier|protection|bulletproof|jacket|helmet|drdo|lightweight,"DRDO has developed lightweight bulletproof jackets (under 10 kg), ballistic helmets, mine-protected vehicles (MPV), and NBC protection suits. These indigenous solutions reduce import dependency and are tailored for Indian operational conditions.",en
