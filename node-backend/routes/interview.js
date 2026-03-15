@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const db = require('../config/database');
+const InterviewCandidate = require('../models/InterviewCandidate');
+const InterviewVerification = require('../models/InterviewVerification');
 const axios = require('axios');
 const FormData = require('form-data');
 const multer = require('multer');
@@ -24,10 +25,10 @@ const storage = multer.diskStorage({
     filename: (req, file, cb) => {
         const uniqueName = `live_${Date.now()}_${Math.random().toString(36).substring(7)}${path.extname(file.originalname)}`;
         cb(null, uniqueName);
-    }
+    },
 });
 
-const upload = multer({ 
+const upload = multer({
     storage: storage,
     limits: { fileSize: 5 * 1024 * 1024 }, // 5MB limit
     fileFilter: (req, file, cb) => {
@@ -39,66 +40,120 @@ const upload = multer({
         } else {
             cb(new Error('Only .jpg, .jpeg, .png images are allowed'));
         }
-    }
+    },
 });
 
+const { authenticateToken } = require('../middleware/auth');
+
 // POST /interview-login - Verify Roll No, DOB, RFID (in that order)
-router.post('/interview-login', async (req, res) => {
+router.post('/interview-login', authenticateToken, async (req, res) => {
     try {
         console.log('=== INTERVIEW LOGIN REQUEST RECEIVED ===');
         const { roll_no, dob, rfid } = req.body;
 
         if (!roll_no || !dob || !rfid) {
-            return res.status(400).json({ 
+            return res.status(400).json({
                 success: false,
-                message: 'Roll No, DOB, and RFID are required' 
+                message: 'Roll No, DOB, and RFID are required',
             });
+        }
+
+        // Security check: Verify the RFID matches the logged-in User's bound RFID
+        const User = require('../models/User');
+        const currentUser = await User.findById(req.user.id);
+
+        if (currentUser.rfid) {
+            // User already has a bound RFID. Ensure it matches.
+            if (currentUser.rfid !== rfid) {
+                return res.status(403).json({
+                    success: false,
+                    verified: false,
+                    message: 'Access Denied: The provided RFID does not match your account profile.',
+                });
+            }
+        } else {
+            // First time using an RFID, bind it to this account permanently
+            // Check if this RFID is already bound to someone else
+            const existingUser = await User.findOne({ rfid: rfid });
+            if (existingUser && existingUser._id.toString() !== currentUser._id.toString()) {
+                return res.status(403).json({
+                    success: false,
+                    verified: false,
+                    message: 'Access Denied: This RFID is already registered to another account.',
+                });
+            }
+
+            // Bind it
+            currentUser.rfid = rfid;
+            await currentUser.save();
+            console.log(`Bound new RFID ${rfid} to user ${currentUser.email}`);
         }
 
         console.log(`Verifying credentials: Roll No=${roll_no}, DOB=${dob}, RFID=${rfid}`);
 
-        // Query NIC government database (simulated)
-        const [candidates] = await db.query(
-            'SELECT * FROM interview_candidates WHERE rfid = ? AND roll_no = ? AND dob = ?',
-            [rfid, roll_no, dob]
-        );
+        // Parse DOB
+        let parsedDob;
+        if (typeof dob === 'string' && dob.includes('/')) {
+            const [day, month, year] = dob.split('/');
+            parsedDob = new Date(`${year}-${month}-${day}`);
+        } else {
+            parsedDob = new Date(dob);
+        }
 
-        if (candidates.length === 0) {
+        // Query NIC government database (simulated)
+        const candidate = await InterviewCandidate.findOne({
+            rfid,
+            rollNo: roll_no,
+            dob: parsedDob,
+        });
+
+        if (!candidate) {
             console.log('❌ Credentials not found in database');
             return res.status(404).json({
                 success: false,
                 verified: false,
-                message: 'Invalid credentials. Candidate not found in NIC database.'
+                message: 'Invalid credentials. Candidate not found in NIC database.',
             });
         }
 
-        const candidate = candidates[0];
         console.log(`✅ Credentials verified for: ${candidate.name}`);
 
+        // Security check: Verify the NIC candidate email matches the logged-in user's email
+        if (candidate.email && candidate.email.toLowerCase() !== currentUser.email.toLowerCase()) {
+            console.log(`❌ Email mismatch: NIC record has ${candidate.email}, logged-in user is ${currentUser.email}`);
+            return res.status(403).json({
+                success: false,
+                verified: false,
+                message: 'Access Denied: Your logged-in email does not match the candidate record in the NIC database.',
+            });
+        }
+
         // Log verification attempt
-        await db.query(
-            'INSERT INTO interview_verifications (candidate_id, rfid, roll_no, credentials_verified, ip_address) VALUES (?, ?, ?, true, ?)',
-            [candidate.id, rfid, roll_no, req.ip]
-        );
+        await InterviewVerification.create({
+            candidateId: candidate._id,
+            rfid,
+            rollNo: roll_no,
+            credentialsVerified: true,
+            ipAddress: req.ip,
+        });
 
         res.status(200).json({
             success: true,
             verified: true,
             message: 'Credentials verified successfully',
             candidate: {
-                id: candidate.id,
+                id: candidate._id,
                 name: candidate.name,
-                roll_no: candidate.roll_no,
-                rfid: candidate.rfid
-            }
+                roll_no: candidate.rollNo,
+                rfid: candidate.rfid,
+            },
         });
-
     } catch (error) {
         console.error('Error in interview-login:', error);
-        res.status(500).json({ 
+        res.status(500).json({
             success: false,
-            message: 'Failed to verify credentials', 
-            error: error.message 
+            message: 'Failed to verify credentials',
+            error: error.message,
         });
     }
 });
@@ -109,7 +164,7 @@ router.post('/verify-live', upload.single('live_image'), async (req, res) => {
         console.log('=== LIVE FACE VERIFICATION REQUEST RECEIVED ===');
         console.log('Request body:', req.body);
         console.log('Request file:', req.file ? 'File present' : 'No file');
-        
+
         const { rfid, roll_no } = req.body;
         const liveImageFile = req.file;
 
@@ -117,14 +172,14 @@ router.post('/verify-live', upload.single('live_image'), async (req, res) => {
             console.log('❌ Missing fields - rfid:', rfid, 'roll_no:', roll_no);
             return res.status(400).json({
                 success: false,
-                message: 'RFID and Roll No are required'
+                message: 'RFID and Roll No are required',
             });
         }
 
         if (!liveImageFile) {
             return res.status(400).json({
                 success: false,
-                message: 'Live image is required'
+                message: 'Live image is required',
             });
         }
 
@@ -132,21 +187,20 @@ router.post('/verify-live', upload.single('live_image'), async (req, res) => {
         console.log(`Live image: ${liveImageFile.path}`);
 
         // Get candidate from database
-        const [candidates] = await db.query(
-            'SELECT * FROM interview_candidates WHERE rfid = ? AND roll_no = ?',
-            [rfid, roll_no]
-        );
+        const candidate = await InterviewCandidate.findOne({
+            rfid,
+            rollNo: roll_no,
+        });
 
-        if (candidates.length === 0) {
+        if (!candidate) {
             return res.status(404).json({
                 success: false,
                 verified: false,
-                message: 'Candidate not found'
+                message: 'Candidate not found',
             });
         }
 
-        const candidate = candidates[0];
-        const referenceImagePath = path.join(__dirname, '..', candidate.reference_image_path);
+        const referenceImagePath = path.join(__dirname, '..', candidate.referenceImagePath);
 
         console.log(`Reference image: ${referenceImagePath}`);
 
@@ -155,7 +209,7 @@ router.post('/verify-live', upload.single('live_image'), async (req, res) => {
             console.error(`❌ Reference image not found: ${referenceImagePath}`);
             return res.status(500).json({
                 success: false,
-                message: 'Reference image not found in database'
+                message: 'Reference image not found in database',
             });
         }
 
@@ -168,18 +222,16 @@ router.post('/verify-live', upload.single('live_image'), async (req, res) => {
 
         let faceApiResponse;
         try {
-            faceApiResponse = await axios.post(
-                'http://localhost:5000/verify',
-                formData,
-                {
-                    headers: formData.getHeaders(),
-                    timeout: 30000 // 30 seconds timeout
-                }
-            );
+            faceApiResponse = await axios.post('http://localhost:5000/verify', formData, {
+                headers: formData.getHeaders(),
+                timeout: 30000, // 30 seconds timeout
+            });
         } catch (apiError) {
             console.error('❌ Face API Error:', apiError.message);
             if (apiError.code === 'ECONNREFUSED') {
-                throw new Error('Face Verification API is not running. Please start it on port 5000.');
+                throw new Error(
+                    'Face Verification API is not running. Please start it on port 5000.'
+                );
             }
             throw new Error(`Face API request failed: ${apiError.message}`);
         }
@@ -189,17 +241,21 @@ router.post('/verify-live', upload.single('live_image'), async (req, res) => {
         const { match, confidence } = faceApiResponse.data;
         const verified = match === true;
 
-        // Update verification log
-        await db.query(
-            `UPDATE interview_verifications 
-             SET face_verified = ?, confidence_score = ?, live_image_path = ?, status = ?
-             WHERE candidate_id = ? 
-             ORDER BY verification_timestamp DESC 
-             LIMIT 1`,
-            [verified, confidence, liveImageFile.path, verified ? 'verified' : 'failed', candidate.id]
+        // Update verification log — find the most recent one for this candidate
+        await InterviewVerification.findOneAndUpdate(
+            { candidateId: candidate._id },
+            {
+                faceVerified: verified,
+                confidenceScore: confidence,
+                liveImagePath: liveImageFile.path,
+                status: verified ? 'verified' : 'failed',
+            },
+            { sort: { verificationTimestamp: -1 } }
         );
 
-        console.log(`${verified ? '✅' : '❌'} Face verification: ${verified ? 'PASSED' : 'FAILED'} (Confidence: ${confidence}%)`);
+        console.log(
+            `${verified ? '✅' : '❌'} Face verification: ${verified ? 'PASSED' : 'FAILED'} (Confidence: ${confidence}%)`
+        );
 
         res.status(200).json({
             success: true,
@@ -209,13 +265,12 @@ router.post('/verify-live', upload.single('live_image'), async (req, res) => {
             message: verified ? 'Face verification successful' : 'Face verification failed',
             candidate: {
                 name: candidate.name,
-                roll_no: candidate.roll_no
-            }
+                roll_no: candidate.rollNo,
+            },
         });
-
     } catch (error) {
         console.error('Error in verify-face:', error.message);
-        
+
         // Clean up uploaded file on error
         if (req.file && fs.existsSync(req.file.path)) {
             fs.unlinkSync(req.file.path);
@@ -225,7 +280,7 @@ router.post('/verify-live', upload.single('live_image'), async (req, res) => {
             success: false,
             verified: false,
             message: 'Face verification failed',
-            error: error.message
+            error: error.message,
         });
     }
 });
@@ -234,17 +289,24 @@ router.post('/verify-live', upload.single('live_image'), async (req, res) => {
 router.get('/candidate/:rfid', async (req, res) => {
     try {
         const { rfid } = req.params;
-        
-        const [candidates] = await db.query(
-            'SELECT id, rfid, roll_no, name, dob, reference_image_path FROM interview_candidates WHERE rfid = ?',
-            [rfid]
+
+        const candidate = await InterviewCandidate.findOne({ rfid }).select(
+            'rfid rollNo name dob referenceImagePath'
         );
 
-        if (candidates.length === 0) {
+        if (!candidate) {
             return res.status(404).json({ message: 'Candidate not found' });
         }
 
-        res.status(200).json(candidates[0]);
+        // Map to match the original SQL response shape
+        res.status(200).json({
+            id: candidate._id,
+            rfid: candidate.rfid,
+            roll_no: candidate.rollNo,
+            name: candidate.name,
+            dob: candidate.dob,
+            reference_image_path: candidate.referenceImagePath,
+        });
     } catch (error) {
         res.status(500).json({ message: 'Error fetching candidate', error: error.message });
     }
@@ -255,14 +317,24 @@ router.get('/candidate/:rfid', async (req, res) => {
 // ========================================
 
 // POST /start-interview - Start interview session and get first question
-router.post('/start-interview', async (req, res) => {
+router.post('/start-interview', authenticateToken, async (req, res) => {
     try {
-        const { rfid, roll_no, name } = req.body;
+        const { rfid, roll_no, name, language } = req.body;
 
         if (!rfid || !roll_no) {
             return res.status(400).json({
                 success: false,
-                message: 'RFID and Roll No are required'
+                message: 'RFID and Roll No are required',
+            });
+        }
+
+        // Security check: Verify RFID ownership
+        const User = require('../models/User');
+        const currentUser = await User.findById(req.user.id);
+        if (!currentUser || (currentUser.rfid && currentUser.rfid !== rfid)) {
+            return res.status(403).json({
+                success: false,
+                message: 'Access Denied: This RFID does not belong to your account.',
             });
         }
 
@@ -272,7 +344,8 @@ router.post('/start-interview', async (req, res) => {
         const response = await axios.post(`${NLP_API_URL}/start-interview`, {
             rfid,
             roll_no,
-            name
+            name,
+            language: language || 'en',
         });
 
         console.log(`✅ First question retrieved for ${rfid}`);
@@ -280,23 +353,22 @@ router.post('/start-interview', async (req, res) => {
         res.status(200).json({
             success: true,
             session_id: response.data.session_id,
-            question: response.data.question
+            question: response.data.question,
         });
-
     } catch (error) {
         console.error('Error starting interview:', error.message);
-        
+
         if (error.code === 'ECONNREFUSED') {
             return res.status(503).json({
                 success: false,
-                message: 'Question delivery service is unavailable. Please contact administrator.'
+                message: 'Question delivery service is unavailable. Please contact administrator.',
             });
         }
 
         res.status(500).json({
             success: false,
             message: 'Error starting interview',
-            error: error.message
+            error: error.message,
         });
     }
 });
@@ -309,7 +381,7 @@ router.post('/submit-answer', async (req, res) => {
         if (!rfid) {
             return res.status(400).json({
                 success: false,
-                message: 'RFID is required'
+                message: 'RFID is required',
             });
         }
 
@@ -319,29 +391,29 @@ router.post('/submit-answer', async (req, res) => {
         const response = await axios.post(`${NLP_API_URL}/submit-answer`, {
             rfid,
             answer: answer || '',
-            question_id
+            question_id,
         });
 
         const { completed, score, question } = response.data;
 
         if (completed) {
             console.log(`✅ Interview completed for ${rfid}, Total Score: ${score.total_score}`);
-            
-            // Update interview status in database (removed interview_completed_at as column doesn't exist)
-            await db.query(
-                `UPDATE interview_verifications 
-                 SET status = 'completed'
-                 WHERE candidate_id = (SELECT id FROM interview_candidates WHERE rfid = ?)
-                 ORDER BY verification_timestamp DESC 
-                 LIMIT 1`,
-                [rfid]
-            );
+
+            // Update interview status in database
+            const candidate = await InterviewCandidate.findOne({ rfid });
+            if (candidate) {
+                await InterviewVerification.findOneAndUpdate(
+                    { candidateId: candidate._id },
+                    { status: 'completed' },
+                    { sort: { verificationTimestamp: -1 } }
+                );
+            }
 
             return res.status(200).json({
                 success: true,
                 completed: true,
                 score: score,
-                message: 'Interview completed successfully'
+                message: 'Interview completed successfully',
             });
         }
 
@@ -351,53 +423,59 @@ router.post('/submit-answer', async (req, res) => {
             success: true,
             completed: false,
             score: score,
-            question: question
+            question: question,
         });
-
     } catch (error) {
         console.error('Error submitting answer:', error.message);
-        
+
         if (error.code === 'ECONNREFUSED') {
             return res.status(503).json({
                 success: false,
-                message: 'Question delivery service is unavailable.'
+                message: 'Question delivery service is unavailable.',
             });
         }
 
         res.status(500).json({
             success: false,
             message: 'Error processing answer',
-            error: error.message
+            error: error.message,
         });
     }
 });
 
-// POST /complete - Interview completion endpoint (for frontend compatibility)
-router.post('/complete', async (req, res) => {
+const InterviewReport = require('../models/InterviewReport');
+
+// POST /complete - Interview completion endpoint
+router.post('/complete', authenticateToken, async (req, res) => {
     try {
-        const { sessionId, duration, questionsAnswered, language, completedAt, interviewData } = req.body;
+        const { sessionId, duration, questionsAnswered, language, completedAt, interviewData } =
+            req.body;
 
         console.log(`✅ Interview completion data received for session: ${sessionId}`);
-        console.log(`Duration: ${duration}s, Questions: ${questionsAnswered}, Language: ${language}`);
+        console.log(
+            `Duration: ${duration}s, Questions: ${questionsAnswered}, Language: ${language}`
+        );
 
-        // In a real implementation, you might want to:
-        // 1. Store the detailed interview data in a separate table
-        // 2. Generate a PDF report
-        // 3. Send email notification
-        
-        // For now, just acknowledge receipt
+        // Save report to database
+        const newReport = await InterviewReport.create({
+            userId: req.user.id, // from authenticateToken
+            candidateInfo: interviewData.candidateInfo,
+            interviewSession: interviewData.interviewSession,
+            questionsAndAnswers: interviewData.questionsAndAnswers
+        });
+
         res.status(200).json({
             success: true,
             message: 'Interview completion data saved successfully',
-            sessionId: sessionId
+            sessionId: sessionId,
+            reportId: newReport._id
         });
-
     } catch (error) {
         console.error('Error saving interview completion:', error.message);
         res.status(500).json({
             success: false,
             message: 'Error saving interview data',
-            error: error.message
+            error: error.message,
         });
     }
 });
@@ -408,24 +486,41 @@ router.get('/session-status/:rfid', async (req, res) => {
         const { rfid } = req.params;
 
         const response = await axios.get(`${NLP_API_URL}/get-session`, {
-            params: { rfid }
+            params: { rfid },
         });
 
         res.status(200).json(response.data);
-
     } catch (error) {
         if (error.response?.status === 404) {
             return res.status(404).json({
                 success: false,
-                message: 'Session not found'
+                message: 'Session not found',
             });
         }
 
         res.status(500).json({
             success: false,
             message: 'Error fetching session',
-            error: error.message
+            error: error.message,
         });
+    }
+});
+
+// ═══════════════════════════════════════
+// TTS PROXY — Forward to NLP server edge-tts
+// ═══════════════════════════════════════
+router.post('/tts', async (req, res) => {
+    try {
+        const { text, language } = req.body;
+        const response = await axios.post(`${NLP_API_URL}/tts`, { text, language }, {
+            responseType: 'arraybuffer',
+            headers: { 'Content-Type': 'application/json' }
+        });
+        res.set('Content-Type', 'audio/mpeg');
+        res.send(Buffer.from(response.data));
+    } catch (error) {
+        console.error('❌ TTS proxy error:', error.message);
+        res.status(500).json({ success: false, message: 'TTS generation failed' });
     }
 });
 

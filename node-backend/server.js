@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
+require('./config/database'); // Connect to MongoDB
 
 const app = express();
 const PORT = process.env.PORT || 9091;
@@ -27,8 +28,8 @@ app.use('/interview', interviewRoutes);
 
 // Health check endpoint
 app.get('/health', (req, res) => {
-    res.status(200).json({ 
-        status: 'OK', 
+    res.status(200).json({
+        status: 'OK',
         message: 'NiyuktiSetu Node Backend is running',
         timestamp: new Date().toISOString()
     });
@@ -65,7 +66,7 @@ app.use((req, res) => {
 // Error handler
 app.use((err, req, res, next) => {
     console.error('Error:', err);
-    res.status(500).json({ 
+    res.status(500).json({
         message: 'Internal server error',
         error: process.env.NODE_ENV === 'development' ? err.message : undefined
     });

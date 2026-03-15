@@ -23,6 +23,8 @@ const LoginForm = () => {
   const [userImage, setUserImage] = useState(null);
   const [selectedLanguage, setSelectedLanguage] = useState(null);
 
+  const [candidateData, setCandidateData] = useState(null);
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({
@@ -35,7 +37,6 @@ const LoginForm = () => {
     e.preventDefault();
     setError('');
 
-    // Validation
     if (!formData.rollNo || !formData.dob || !formData.rfid) {
       setError('Please fill in all fields');
       return;
@@ -44,16 +45,22 @@ const LoginForm = () => {
     setIsSubmitting(true);
 
     try {
-      // Interview login - verify credentials
       const response = await apiService.interviewLogin({
         roll_no: formData.rollNo,
         dob: formData.dob,
         rfid: formData.rfid
       });
-      
+
       if (response.verified) {
         setSessionId(response.candidate?.id || 'session-' + Date.now());
-        // Move to face verification
+        // Store full candidate data from API response
+        setCandidateData({
+          name: response.candidate?.name || 'Candidate',
+          rollNo: formData.rollNo,
+          rfid: formData.rfid,
+          dob: formData.dob,
+          roll_no: response.candidate?.roll_no || formData.rollNo
+        });
         setCurrentStep('faceVerification');
       } else {
         setError(response.message || 'Login failed. Please check your details.');
@@ -102,7 +109,7 @@ const LoginForm = () => {
         language={selectedLanguage}
         onComplete={handleInterviewComplete}
         userImage={userImage}
-        candidateInfo={formData}
+        candidateInfo={candidateData || formData}
       />
     );
   }
@@ -129,8 +136,8 @@ const LoginForm = () => {
     return (
       <FaceVerification
         sessionId={sessionId}
-        rollNo={formData.rollNo}
-        rfid={formData.rfid}
+        rollNo={candidateData?.rollNo || formData.rollNo}
+        rfid={candidateData?.rfid || formData.rfid}
         onVerificationSuccess={handleVerificationSuccess}
         onCancel={handleVerificationCancel}
       />
