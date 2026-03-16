@@ -388,8 +388,8 @@ Live Frame → Face Detection → Quality Check
       <sub>Frontend • Backend • Kiosk Mode</sub>
     </td>
     <td align="center">
-      <a href="#">
-        <b>Contributor</b>
+      <a href="https://github.com/Shourya-here">
+        <b>Shourya Kumar</b>
       </a>
       <br/>
       <sub>AI/ML Models • NLP Engine • Face Verification</sub>
