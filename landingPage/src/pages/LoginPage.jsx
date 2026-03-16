@@ -58,7 +58,8 @@ const LoginPage = () => {
       try {
         const result = await loginUser(formData.email, formData.password);
         if (result.success) {
-          alert(`Login successful! Welcome ${result.user.name}`);
+          login(result.user, result.token);
+          navigate('/');
         } else {
           setErrors({ general: result.message });
         }
@@ -97,7 +98,7 @@ const LoginPage = () => {
             Welcome Back to <span className="auth-tagline-highlight">Smart Recruitment</span>
           </h2>
           <p className="auth-description">
-            Sign in to access your dashboard, track your interview progress, and explore 
+            Sign in to access your dashboard, track your interview progress, and explore
             personalized exam preparation resources powered by AI.
           </p>
 

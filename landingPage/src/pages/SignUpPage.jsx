@@ -8,7 +8,7 @@ import { useAuth } from '../context/AuthContext';
 const SignUpPage = () => {
   const navigate = useNavigate();
   const { login } = useAuth();
-  
+
   const [step, setStep] = useState('signup'); // 'signup' or 'otp'
   const [formData, setFormData] = useState({
     name: '',
@@ -43,34 +43,34 @@ const SignUpPage = () => {
 
   const validateForm = () => {
     const newErrors = {};
-    
+
     if (!formData.name.trim()) {
       newErrors.name = 'Name is required';
     }
-    
+
     if (!formData.email.trim()) {
       newErrors.email = 'Email is required';
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
       newErrors.email = 'Email is invalid';
     }
-    
+
     if (!formData.password) {
       newErrors.password = 'Password is required';
     } else if (formData.password.length < 6) {
       newErrors.password = 'Password must be at least 6 characters';
     }
-    
+
     if (!formData.agreedToTerms) {
       newErrors.terms = 'You must agree to the terms';
     }
-    
+
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
 
   const handleSignUp = async (e) => {
     e.preventDefault();
-    
+
     if (!validateForm()) {
       return;
     }
@@ -78,27 +78,14 @@ const SignUpPage = () => {
     setIsLoading(true);
     try {
       const result = await signUpUser(formData.name, formData.email, formData.password);
-      
+
       if (result.success) {
         setTempData({
           tempUserId: result.tempUserId,
           userData: result.userData,
-          mockOtp: result.mockOtp, // Backend OTP
-          testOtp: result.testOtp // Test OTP for local testing
         });
         setStep('otp');
-        
-        // Show appropriate message based on mode
-        let otpMessage = '';
-        if (result.offlineMode) {
-          otpMessage = `⚠️ Backend offline - Using test mode\n\n🧪 Test OTP: ${result.testOtp}\n\nNote: This is for testing only.`;
-        } else if (result.testOtp) {
-          otpMessage = `OTP sent to your email!\n\n🧪 Test OTP (local): ${result.testOtp}\n${result.mockOtp && result.mockOtp !== result.testOtp ? `📧 Backend OTP: ${result.mockOtp}` : ''}`;
-        } else {
-          otpMessage = `OTP sent to your email! Check console for OTP.`;
-        }
-        
-        alert(otpMessage);
+        alert(`✅ OTP has been sent to ${formData.email}. Please check your inbox.`);
       } else {
         setErrors({ submit: result.message });
       }
@@ -111,7 +98,7 @@ const SignUpPage = () => {
 
   const handleVerifyOtp = async (e) => {
     e.preventDefault();
-    
+
     if (!otp || otp.length !== 6) {
       setErrors({ otp: 'Please enter a valid 6-digit OTP' });
       return;
@@ -126,7 +113,7 @@ const SignUpPage = () => {
         formData.name,
         formData.password
       );
-      
+
       if (result.success) {
         login(result.user, result.token);
         alert('Account created successfully! Redirecting to dashboard...');
@@ -149,23 +136,13 @@ const SignUpPage = () => {
         setTempData({
           tempUserId: result.tempUserId,
           userData: result.userData,
-          mockOtp: result.mockOtp,
-          testOtp: result.testOtp
         });
-        
-        let otpMessage = '';
-        if (result.offlineMode) {
-          otpMessage = `⚠️ Backend offline - Using test mode\n\n🧪 Test OTP: ${result.testOtp}`;
-        } else if (result.testOtp) {
-          otpMessage = `OTP resent!\n\n🧪 Test OTP (local): ${result.testOtp}\n${result.mockOtp && result.mockOtp !== result.testOtp ? `📧 Backend OTP: ${result.mockOtp}` : ''}`;
-        } else {
-          otpMessage = `OTP resent! Check console for OTP.`;
-        }
-        
-        alert(otpMessage);
+        alert(`✅ OTP resent to ${formData.email}. Please check your inbox.`);
+      } else {
+        alert(result.message || 'Failed to resend OTP');
       }
     } catch (error) {
-      alert('Failed to resend OTP');
+      alert('Failed to resend OTP. Please try again.');
     } finally {
       setIsLoading(false);
     }
@@ -198,7 +175,7 @@ const SignUpPage = () => {
             Join the Future of <span className="auth-tagline-highlight">Government Recruitment</span>
           </h2>
           <p className="auth-description">
-            Register today to access AI-powered interview preparation, multilingual support, 
+            Register today to access AI-powered interview preparation, multilingual support,
             and advanced assessment tools designed for NDA examinations.
           </p>
 

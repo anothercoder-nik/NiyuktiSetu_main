@@ -1,6 +1,7 @@
 // API service for backend communication
-const BACKEND_URL = 'http://localhost:8080'; // Node Gateway
-const DEMO_MODE = false; // Set to false when backend is ready
+const BACKEND_URL = 'http://localhost:9091'; // Node Gateway
+const FACE_API_URL = 'http://localhost:5000'; // Face Verification API
+const DEMO_MODE = false;
 
 // Simulate API delay
 const simulateDelay = (ms = 1000) => new Promise(resolve => setTimeout(resolve, ms));
@@ -23,12 +24,14 @@ export const apiService = {
         }
       };
     }
-    
+
     try {
-      const response = await fetch(`${BACKEND_URL}/api/interview/interview-login`, {
+      const token = localStorage.getItem('token');
+      const response = await fetch(`${BACKEND_URL}/interview/interview-login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          ...(token && { 'Authorization': `Bearer ${token}` })
         },
         body: JSON.stringify({
           roll_no: loginData.roll_no,
@@ -36,11 +39,12 @@ export const apiService = {
           rfid: loginData.rfid
         })
       });
-      
+
       if (!response.ok) {
+        if (response.status === 403) throw new Error('Access Denied: The provided RFID does not match your account profile.');
         throw new Error('Interview login failed');
       }
-      
+
       return await response.json();
     } catch (error) {
       console.error('Error in interview login:', error);
@@ -53,9 +57,9 @@ export const apiService = {
     if (DEMO_MODE) {
       console.log('DEMO MODE: Verifying live face');
       await simulateDelay(2000);
-      
+
       const isVerified = Math.random() > 0.1;
-      
+
       return {
         success: true,
         verified: isVerified,
@@ -68,22 +72,22 @@ export const apiService = {
         }
       };
     }
-    
+
     try {
       const formData = new FormData();
       formData.append('roll_no', roll_no);
       formData.append('rfid', rfid);
       formData.append('live_image', imageBlob, 'live_capture.jpg');
-      
-      const response = await fetch(`${BACKEND_URL}/api/interview/verify-live`, {
+
+      const response = await fetch(`${BACKEND_URL}/interview/verify-live`, {
         method: 'POST',
         body: formData
       });
-      
+
       if (!response.ok) {
         throw new Error('Face verification failed');
       }
-      
+
       return await response.json();
     } catch (error) {
       console.error('Error verifying live face:', error);
@@ -102,20 +106,20 @@ export const apiService = {
         sessionId: 'demo-session-' + Date.now()
       };
     }
-    
+
     try {
-      const response = await fetch(`${BACKEND_URL}/api/login`, {
+      const response = await fetch(`${BACKEND_URL}/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify(loginData)
       });
-      
+
       if (!response.ok) {
         throw new Error('Login submission failed');
       }
-      
+
       return await response.json();
     } catch (error) {
       console.error('Error submitting login:', error);
@@ -128,10 +132,10 @@ export const apiService = {
     if (DEMO_MODE) {
       console.log('DEMO MODE: Verifying face for session:', sessionId);
       await simulateDelay(2000);
-      
+
       // Simulate random verification (90% success rate for demo)
       const isVerified = Math.random() > 0.1;
-      
+
       return {
         success: isVerified,
         verified: isVerified,
@@ -139,23 +143,23 @@ export const apiService = {
         confidence: isVerified ? 0.95 : 0.45
       };
     }
-    
+
     try {
       // Create FormData to send image
       const formData = new FormData();
       formData.append('image', imageBlob, 'face-capture.jpg');
       formData.append('sessionId', sessionId);
-      
+
       // Send to our backend first
-      const response = await fetch(`${BACKEND_URL}/api/verify-face`, {
+      const response = await fetch(`${BACKEND_URL}/verify-face`, {
         method: 'POST',
         body: formData
       });
-      
+
       if (!response.ok) {
         throw new Error('Face verification failed');
       }
-      
+
       return await response.json();
     } catch (error) {
       console.error('Error verifying face:', error);
@@ -173,26 +177,56 @@ export const apiService = {
         message: 'Interview data saved successfully'
       };
     }
-    
+
     try {
-      const response = await fetch(`${BACKEND_URL}/api/interview/complete`, {
+      const token = localStorage.getItem('token');
+      const response = await fetch(`${BACKEND_URL}/interview/complete`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          ...(token && { 'Authorization': `Bearer ${token}` })
         },
         body: JSON.stringify({
           sessionId,
           ...interviewData
         })
       });
-      
+
       if (!response.ok) {
         throw new Error('Failed to submit interview data');
       }
-      
+
       return await response.json();
     } catch (error) {
       console.error('Error submitting interview:', error);
+      throw error;
+    }
+  },
+
+  // Fetch all historical reports
+  getUserReports: async () => {
+    if (DEMO_MODE) {
+      console.log('DEMO MODE: Fetching user reports');
+      await simulateDelay(500);
+      return { success: true, reports: [] };
+    }
+
+    try {
+      const token = localStorage.getItem('token');
+      const response = await fetch(`${BACKEND_URL}/user/reports`, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+          ...(token && { 'Authorization': `Bearer ${token}` })
+        }
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to fetch reports');
+      }
+      return await response.json();
+    } catch (error) {
+      console.error('Error fetching user reports:', error);
       throw error;
     }
   },
@@ -202,7 +236,7 @@ export const apiService = {
   // ========================================
 
   // Start Interview - Get first question
-  startInterview: async (rfid, roll_no, name) => {
+  startInterview: async (rfid, roll_no, name, language = 'en') => {
     if (DEMO_MODE) {
       console.log('DEMO MODE: Starting interview');
       await simulateDelay(800);
@@ -220,12 +254,14 @@ export const apiService = {
     }
 
     try {
-      const response = await fetch(`${BACKEND_URL}/api/interview/start-interview`, {
+      const token = localStorage.getItem('token');
+      const response = await fetch(`${BACKEND_URL}/interview/start-interview`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          ...(token && { 'Authorization': `Bearer ${token}` })
         },
-        body: JSON.stringify({ rfid, roll_no, name })
+        body: JSON.stringify({ rfid, roll_no, name, language })
       });
 
       if (!response.ok) {
@@ -244,7 +280,7 @@ export const apiService = {
     if (DEMO_MODE) {
       console.log('DEMO MODE: Submitting answer');
       await simulateDelay(1000);
-      
+
       const questionNum = (question_id || 0) + 1;
       const completed = questionNum >= 10;
 
@@ -281,7 +317,7 @@ export const apiService = {
     }
 
     try {
-      const response = await fetch(`${BACKEND_URL}/api/interview/submit-answer`, {
+      const response = await fetch(`${BACKEND_URL}/interview/submit-answer`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -318,7 +354,7 @@ export const apiService = {
     }
 
     try {
-      const response = await fetch(`${BACKEND_URL}/api/interview/session-status/${rfid}`);
+      const response = await fetch(`${BACKEND_URL}/interview/session-status/${rfid}`);
 
       if (!response.ok) {
         throw new Error('Failed to get session status');
@@ -327,6 +363,109 @@ export const apiService = {
       return await response.json();
     } catch (error) {
       console.error('Error getting session status:', error);
+      throw error;
+    }
+  },
+
+  // ========================================
+  // FACE LIVENESS & ANTI-SPOOFING API
+  // ========================================
+
+  // Liveness check — send a frame with expected action
+  livenessCheck: async (frameBlob, action = 'face_present') => {
+    try {
+      const formData = new FormData();
+      formData.append('frame', frameBlob, 'frame.jpg');
+      formData.append('action', action);
+
+      const response = await fetch(`${FACE_API_URL}/liveness-check`, {
+        method: 'POST',
+        body: formData
+      });
+
+      if (!response.ok) throw new Error('Liveness check failed');
+      return await response.json();
+    } catch (error) {
+      console.error('Error in liveness check:', error);
+      throw error;
+    }
+  },
+
+  // Register reference face for session
+  registerReference: async (imageBlob, rfid, roll_no) => {
+    try {
+      const formData = new FormData();
+      formData.append('image', imageBlob, 'reference.jpg');
+      formData.append('rfid', rfid);
+      formData.append('roll_no', roll_no);
+
+      const response = await fetch(`${FACE_API_URL}/register-reference`, {
+        method: 'POST',
+        body: formData
+      });
+
+      if (!response.ok) throw new Error('Reference registration failed');
+      return await response.json();
+    } catch (error) {
+      console.error('Error registering reference:', error);
+      throw error;
+    }
+  },
+
+  // Mid-interview re-verification
+  reVerify: async (imageBlob, rfid) => {
+    try {
+      const formData = new FormData();
+      formData.append('image', imageBlob, 'reverify.jpg');
+      formData.append('rfid', rfid);
+
+      const response = await fetch(`${FACE_API_URL}/re-verify`, {
+        method: 'POST',
+        body: formData
+      });
+
+      if (!response.ok) throw new Error('Re-verification failed');
+      return await response.json();
+    } catch (error) {
+      console.error('Error in re-verification:', error);
+      throw error;
+    }
+  },
+
+  // Multi-face detection — check if multiple people are in frame
+  faceCount: async (frameBlob) => {
+    try {
+      const formData = new FormData();
+      formData.append('frame', frameBlob, 'frame.jpg');
+
+      const response = await fetch(`${FACE_API_URL}/face-count`, {
+        method: 'POST',
+        body: formData
+      });
+
+      if (!response.ok) throw new Error('Face count check failed');
+      return await response.json();
+    } catch (error) {
+      console.error('Error in face count:', error);
+      throw error;
+    }
+  },
+
+  // Combined monitor — face count + liveness in a single call (optimized)
+  monitorFrame: async (frameBlob) => {
+    try {
+      const formData = new FormData();
+      formData.append('frame', frameBlob, 'frame.jpg');
+
+      const response = await fetch(`${FACE_API_URL}/monitor`, {
+        method: 'POST',
+        body: formData
+      });
+
+      if (!response.ok) throw new Error('Monitor check failed');
+      return await response.json();
+    } catch (error) {
+      console.error('Error in monitor:', error);
       throw error;
     }
   }

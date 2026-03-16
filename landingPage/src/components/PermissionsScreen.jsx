@@ -5,6 +5,7 @@ import './PermissionsScreen.css';
 const PermissionsScreen = ({ onPermissionsGranted, onCancel, cameraStream }) => {
   const [audioPermission, setAudioPermission] = useState(false);
   const [isRequesting, setIsRequesting] = useState(false);
+  const [proceeded, setProceeded] = useState(false);
   const [error, setError] = useState('');
 
   const requestPermissions = async () => {
@@ -23,7 +24,8 @@ const PermissionsScreen = ({ onPermissionsGranted, onCancel, cameraStream }) => 
       // Stop the stream (we'll request it again when needed)
       stream.getTracks().forEach(track => track.stop());
 
-      // Wait a moment to show success state
+      // Wait a moment to show success state then proceed
+      setProceeded(true);
       setTimeout(() => {
         onPermissionsGranted();
       }, 1000);
@@ -41,6 +43,12 @@ const PermissionsScreen = ({ onPermissionsGranted, onCancel, cameraStream }) => 
         const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
         setAudioPermission(true);
         stream.getTracks().forEach(track => track.stop());
+
+        // Auto-proceed after granting mic via toggle
+        setProceeded(true);
+        setTimeout(() => {
+          onPermissionsGranted();
+        }, 1000);
       } catch (err) {
         setError('Microphone permission denied');
       }
@@ -53,7 +61,7 @@ const PermissionsScreen = ({ onPermissionsGranted, onCancel, cameraStream }) => 
     <div className="permissions-container">
       <div className="permissions-content">
         <h1 className="permissions-title">Security Permission</h1>
-        
+
         {error && (
           <div className="permissions-error">
             <AlertCircle size={20} />
@@ -92,10 +100,10 @@ const PermissionsScreen = ({ onPermissionsGranted, onCancel, cameraStream }) => 
 
         <button
           onClick={requestPermissions}
-          disabled={isRequesting || audioPermission}
+          disabled={isRequesting || proceeded}
           className="proceed-button"
         >
-          {isRequesting ? 'Requesting...' : audioPermission ? 'Permission Granted ✓' : 'PROCEED'}
+          {isRequesting ? 'Requesting...' : proceeded ? 'Permission Granted ✓' : 'PROCEED'}
         </button>
       </div>
     </div>

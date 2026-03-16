@@ -11,14 +11,17 @@
   z-index: 2000;
   padding: 20px;
   overflow-y: auto;
+  min-height: 100vh;
 }
 
 .verification-modal {
   background: rgba(26, 26, 26, 0.95);
   border-radius: 24px;
-  padding: 40px;
-  max-width: 700px;
+  padding: 32px 36px;
+  max-width: 600px;
   width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
   border: 2px solid rgba(255, 153, 51, 0.3);
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
@@ -63,10 +66,13 @@
 }
 
 @keyframes demoPulse {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: scale(1);
     opacity: 1;
   }
+
   50% {
     transform: scale(1.05);
     opacity: 0.9;
@@ -84,7 +90,8 @@
 .video-wrapper {
   position: relative;
   width: 100%;
-  padding-bottom: 75%; /* 4:3 aspect ratio */
+  padding-bottom: 75%;
+  /* 4:3 aspect ratio */
 }
 
 .video-preview {
@@ -94,7 +101,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transform: scaleX(-1); /* Mirror effect */
+  transform: scaleX(-1);
+  /* Mirror effect */
 }
 
 .face-guide-overlay {
@@ -119,10 +127,13 @@
 }
 
 @keyframes guidePulse {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: scale(1);
     border-color: #FF9933;
   }
+
   50% {
     transform: scale(1.05);
     border-color: #138808;
@@ -175,6 +186,7 @@
     opacity: 0;
     transform: translateY(-20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -295,6 +307,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
